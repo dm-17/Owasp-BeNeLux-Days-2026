@@ -1,0 +1,84 @@
+<section class="confirmed-speakers">
+    <section class="conference-schedule">
+        {% if site.data.conference[0].title %}
+            {% assign speakers = site.data.conference | sort: 'time' %}
+            {% for speaker in speakers %}
+                {% if speaker.type=='talk' %}
+                    {% if speaker.display %}
+                
+                        {% assign fullname="" %}
+                            {% if speaker.name2 %} 
+                                {% capture fullname %}{{speaker.name}} and {{speaker.name2}}{% endcapture %}
+                            {% else %}
+                                {% capture fullname %}{{speaker.name}}{% endcapture %}
+                            {% endif %}
+                            <a name="{{fullname | replace: " ","-"}}"></a>
+                            <article class="speaker">
+                                <div class="left">
+                                    <div class="image-spk" style="background-image: url(&quot;/assets/images/speakers/{{speaker.image}}&quot;);"></div>
+                                </div>
+                                <div class="right">
+                                    <h3>{{speaker.title}} by {{fullname}}</h3>
+                                    <p>
+                                        <strong>{{speaker.time}}</strong>{% if speaker.feed %} - <em>Check out the streaming feed!</em>{% endif %}
+                                    </p>
+                                    {% if speaker.abstract %}
+                                    <section class="abstract">
+                                        <h4>Abstract:</h4>
+                                        <p>{{speaker.abstract}}</p>
+                                    </section>
+                                    {% endif %} 
+                                    {% if speaker.bio %}
+                                    <section class="bio">
+                                        <h4>Bio:</h4>
+                                        <p>{{speaker.bio}}</p>
+                                    </section>
+                                    {% endif %}
+                                    {% if speaker.linkedin or speaker.x_handle or speaker.infosec %}
+                                        <footer class="follow-link">
+                                            <b>Follow {{fullname}}:</b>
+                                            {% if speaker.linkedin %}
+                                                <span>
+                                                    <a id="follow-link" href="{{speaker.linkedin}}" target="_blank">
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z"></path></svg>
+                                                    </a>
+                                                </span>
+                                            {% endif %}
+                                            {% if speaker.x_handle %}
+                                                <span>
+                                                    <a id="follow-link" href="{{speaker.x_handle}}" target="_blank">
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM727.3 401.7c.3 4.7.3 9.6.3 14.4 0 146.8-111.8 315.9-316.1 315.9-63 0-121.4-18.3-170.6-49.8 9 1 17.6 1.4 26.8 1.4 52 0 99.8-17.6 137.9-47.4-48.8-1-89.8-33-103.8-77 17.1 2.5 32.5 2.5 50.1-2a111 111 0 0 1-88.9-109v-1.4c14.7 8.3 32 13.4 50.1 14.1a111.13 111.13 0 0 1-49.5-92.4c0-20.7 5.4-39.6 15.1-56a315.28 315.28 0 0 0 229 116.1C492 353.1 548.4 292 616.2 292c32 0 60.8 13.4 81.1 35 25.1-4.7 49.1-14.1 70.5-26.7-8.3 25.7-25.7 47.4-48.8 61.1 22.4-2.4 44-8.6 64-17.3-15.1 22.2-34 41.9-55.7 57.6z"></path></svg>
+                                                    </a>
+                                                </span>
+                                            {% endif %}
+                                            {% if speaker.infosec %}
+                                                <span>
+                                                    <a id="follow-link" href="{{speaker.infosec}}" target="_blank">
+                                                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 180.000000 180.000000" fill="currentColor"  stroke="currentColor"
+                                                        preserveAspectRatio="xMidYMid meet">
+                                                        <g transform="translate(0.000000,180.000000) scale(0.100000,-0.100000)" stroke="none">
+                                                        <path d="M705 1759 c-27 -4 -79 -13 -115 -20 -161 -27 -363 -109 -435 -174
+                                                        l-35 -33 0 -123 c0 -125 13 -210 51 -344 18 -64 78 -231 99 -280 124 -278 199
+                                                        -395 370 -567 193 -194 247 -219 346 -157 27 17 105 88 174 157 171 172 245
+                                                        287 370 567 47 106 117 330 138 441 7 33 12 116 12 183 l0 124 -33 31 c-62 58
+                                                        -249 138 -392 167 -185 38 -424 50 -550 28z m399 -230 c122 -22 239 -56 310
+                                                        -91 l48 -23 -7 -70 c-16 -161 -112 -443 -223 -655 -55 -107 -159 -244 -256
+                                                        -339 l-75 -74 -76 74 c-153 148 -252 303 -352 549 -74 182 -116 328 -128 445
+                                                        l-7 70 48 23 c68 33 187 69 299 90 71 13 348 14 419 1z"/>
+                                                        <path d="M594 1125 c-55 -38 -51 -130 6 -160 42 -22 558 -22 600 0 57 30 61
+                                                        122 6 160 -30 22 -582 22 -612 0z"/>
+                                                        </g></svg>
+                                                    </a>
+                                                </span>
+                                            {% endif %}
+                                        </footer>
+                                    {% endif %}
+                                </div>
+                            
+                            </article>
+                            {% endif %}
+                    {% endif %}
+                {% endfor %}
+        {% endif %}
+    </section>
+</section>

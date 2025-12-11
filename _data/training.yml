@@ -1,0 +1,173 @@
+# 027/11/2026
+
+  - type    : training
+    image   : Olle-E-Johansson.jpg
+    day     : 27/11/2026
+    time    : 09:00 - 17:00
+    name    : Olle E. Johansson
+    bio     : >-
+              Olle E. Johansson has over twenty years of experience in telecommunications, VoIP, and 
+              cybersecurity. Olle is active in open-source projects and standard forums, the founder 
+              of major appsec and network security initiatives, and a specialist for various categories 
+              of software bills of materials (SBOM). These days, SBOMs are everywhere, but not every 
+              SBOM use is equally successful. Olle will tell us how to improve their application, how to 
+              work with them day in and day out and how to develop your own SBOM lifestyle for your 
+              organization.
+    title   : Keep your systems secure - a guide to vulnerability management
+    abstract: >-
+              The EU Cyber regulations and common sense all point to one thing&#58; Keep your systems up 
+              to date. Manufacturers and users needs to be ready to detect, react and mitigate quickly. 
+              We don&#39;t know when, but there will be a next &#34;Log4J&#34; issue and this time we 
+              need to be better prepared. This sounds easy, but involves a lot of systems from asset 
+              management to SBOM inventory, vulnerability intelligence and update awareness and 
+              readiness.<br />
+              In this training we will cover the current state of vulnerability management, go through 
+              Software Bill of Materials, regulation requirements and an overview of the existing 
+              systems - CVE, NVD, EUVD and classifications like CVSS, EPSS and CWE. What works 
+              and what doesn&#39;t work? And what kind of tools are available as Open Source?
+    feed    :
+    url     : 
+    linkedin: https://www.linkedin.com/in/ollejohansson/
+    x_handle:
+    reqs    : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : training
+    image   : Steven-Wierckx.png
+    day     : 27/11/2026
+    time    : 09:00 - 17:00
+    name    : Steven Wierckx
+    bio     : >-
+              I’m a secure development life-cycle security (SDLC) specialist with more 
+              than 20 years of experience in creating and teaching courses, programming, 
+              security testing, source code review, test automation, functional and 
+              technical analysis, development, and database design. I have guided 
+              organizations in achieving compliance for their SDLC for FDA MDR and ISO 
+              27001. I am a team player with a constant drive to learn new things. I 
+              have a passion for all aspects of the secure development lifecycle, I have 
+              guided many customers in their efforts to reach a secure development 
+              practice. I have spoken or thought courses at conferences such as OWASP 
+              AppSec USA, O’Reilly Security Conference, Hack In The Box Amsterdam, 44CON, 
+              BlackHat EU and BruCON. I have created (and thought) several courses on 
+              threat modelling, secure programming, security awareness and testing 
+              software for security.
+    title   : Threat modeling with AI
+    abstract: >-
+              This workshop aims to introduce Security Professionals, Developers, 
+              Architects, and Product Managers to integrating AI assistance into their 
+              threat modeling workflows. In this session, participants will learn how to 
+              leverage AI for diagramming, threat identification, and countermeasure 
+              recommendations to speed up threat model analysis.<br />
+              To bring these concepts to life, the workshop includes a guided case 
+              study on a Digital Wallet / Payment App, where participants will use AI 
+              tools to generate a data flow diagram, identify threats using STRIDE, 
+              propose mitigations mapped to industry standards, and summarize findings 
+              for business stakeholders. This integrated exercise provides an engaging, 
+              end-to-end view of how AI can support—but not replace—human judgment in 
+              threat modeling.
+    feed    :
+    url     : 
+    linkedin: https://www.linkedin.com/in/steven-wierckx/
+    x_handle:
+    reqs    : >-
+              While participants should have a working knowledge of Generative AI and LLM 
+              concepts and tools (e.g., prompt engineering), no prior experience with threat 
+              modeling is required.<br />
+              <br />
+              Bring a laptop, have at least access to one AI chatbot of your choice, no other 
+              tools required. Both free and paying versions of AI chatbots can be used.
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : training
+    image   : Nariman-Aga-Tagiyev.jpg
+    day     : 27/11/2026
+    time    : 09:00 - 17:00
+    name    : Nariman Aga-Tagiyev
+    bio     : >-
+              Nariman Aga-Tagiyev is an Application Security Architect with over two 
+              decades of experience in software development. Throughout his career, Nariman 
+              has worn many hats, serving as a developer, software architect, DevSecOps 
+              engineer, and cloud architect.<br />
+              <br />
+              Since 2016, however, he has focused exclusively on Application Security and 
+              advancing the maturity of the Software Security Development Lifecycle (SSDLC). 
+              He has led the development of AppSec programs for international corporations, 
+              including initiatives in software supply chain security, Threat modeling, and 
+              Security Champions programs.<br />
+              <br />
+              Nariman is a core team member of the OWASP SAMM (Software Assurance Maturity 
+              Model) project and holds the ISC2 Certified Secure Software Lifecycle 
+              Professional (CSSLP) certification.
+    title   : Preparing for the EU Cyber Resilience Act with OWASP SAMM
+    abstract: >-
+              This full-day, interactive workshop provides a detailed understanding of the 
+              EU Cyber Resilience Act (CRA) and its implications for organizations producing 
+              products with digital and software components. We will deep dive into how OWASP 
+              SAMM (Software Assurance Maturity Model) can help your organization get ready 
+              for it. We will explore the CRA’s key requirements - including its timeline, 
+              affected product categories, impact on Open Source Software, financial penalties, 
+              and expected application security activities. You’ll gain a clear understanding 
+              of how SAMM maps to CRA obligations and how it can serve as a practical foundation 
+              for compliance and continuous improvement.<br />
+              <br />
+              Through interactive exercises and group discussions, participants will learn how to 
+              perform SAMM assessments, address organizational and cultural challenges, and 
+              prioritize improvements based on company context. We’ll dive deep into SAMM’s 
+              activities, discuss success criteria&#39;s, and connect it with related frameworks 
+              such as DSOMM and AI Maturity. By the end of the day, you’ll walk away with a clear 
+              set of next steps to elevate your application security maturity and prepare 
+              effectively for the EU CRA.
+    feed    :
+    url     : 
+    linkedin: https://www.linkedin.com/in/aganariman/
+    x_handle:
+    reqs    : >-
+              Participants can bring their laptops in order to follow along with SAMM assessment, 
+              but it&#39;s not a requirement. Mostly the session will be interactive
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : training
+    image  : Thomas-Vissers.png
+    image2  : Tim-Van-Hamme.png
+    day     : 27/11/2026
+    time    : 09:00 - 12:30
+    name    : Thomas Vissers
+    name2   : Tim Van Hamme
+    bio     : >-
+              Thomas Vissers specializes in the dynamic intersection of cybersecurity and AI. 
+              He packs 10 years of experience in developing and operating production-grade AI 
+              security systems. Previously at Cloudflare, he served as an engineering leader 
+              for data-driven security products, scaling innovations to protect millions of 
+              internet users worldwide. Today at KU Leuven, Thomas focuses on empowering 
+              organizations to securely and reliably leverage LLM technology.
+              <br /><br />Tim Van hamme is a computer scientist specialized in AI security and behavioral analysis, 
+              leading research at KU Leuven's DistriNet on secure and trustworthy AI adoption. 
+              As co-lead of Blue41, he bridges rigorous academic research with industry applications, 
+              helping organizations safely deploy AI systems. With experience spanning from CERT.be's 
+              threat intelligence infrastructure to behavioral biometrics and AI agent security, 
+              Tim combines theoretical expertise with practical solutions for emergent AI security challenges.
+    title   : Hacking AI Guardrails Workshop (LISA)
+    abstract: >-
+              In this workshop, participants will get hands-on experience both building and breaking 
+              AI guardrails. Working in teams, you’ll design guardrail policies to defend sensitive 
+              data within a vulnerable AI application, while attempting to bypass those of others. 
+              Who will win? The scoreboard will tell, but in the end everyone walks away with a 
+              deeper grasp of how LLMs can be manipulated and the challenges of building robust guardrails.
+              <br />This workshop is delivered as part of the VLAIO research project LISA.
+    feed    :
+    url     : https://distrinet.cs.kuleuven.be/projects/LISA
+    linkedin: https://www.linkedin.com/in/thomasvissers/
+    linkedin2: https://be.linkedin.com/in/tim-van-hamme-987942100
+    x_handle:
+    reqs    : >-
+              Requirements: laptop that can SSH into external machine. 
+              <br />Optional: running Python locally and an IDE.
+    urltag  : 
+    display : yes
+    confirmed: yes

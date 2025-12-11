@@ -1,0 +1,75 @@
+<section class="speakers">
+    <div class="title">
+        Speakers on December 2
+    </div>
+    <div class="speaker-ar">
+        {% if site.data.conference[0].title %}
+        
+            {% assign speakers = site.data.conference | sort: 'time' %}
+            {% for speaker in speakers %}
+                {% assign fullname="" %}
+                    {% if speaker.name2 %} 
+                        {% capture fullname %}{{speaker.name}} and {{speaker.name2}}{% endcapture %}
+                    {% else %}
+                        {% capture fullname %}{{speaker.name}}{% endcapture %}
+                    {% endif %}
+                {% if speaker.confirmed %}
+                    <div class="highlight">
+                        <div class="left">
+                        {% if speaker.image %}
+                            <div class="icon" style="background-image: url(&quot;/assets/images/speakers/{{speaker.image}}&quot;);"></div>
+                        {% endif %}
+                        </div>
+                        <div class="right">
+                            <div class="name">
+                                <a href="/program/conference#{{fullname | replace: " ","-"}}">{{fullname}}</a>
+                            </div>
+                            <div class="rightarrow">
+                                <a href="/program/conference#{{fullname | replace: " ","-"}}">
+                                    <svg width="2em" height="1em" viewBox="-25.77 -25.77 127.34 127.34" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="currentColor" stroke-width="0.00075804"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.30321600000000004"></g><g id="SVGRepo_iconCarrier"> <g id="Group_65" data-name="Group 65" transform="translate(-831.568 -384.448)"> <path id="Path_57" data-name="Path 57" d="M833.068,460.252a1.5,1.5,0,0,1-1.061-2.561l33.557-33.56a2.53,2.53,0,0,0,0-3.564l-33.557-33.558a1.5,1.5,0,0,1,2.122-2.121l33.556,33.558a5.53,5.53,0,0,1,0,7.807l-33.557,33.56A1.5,1.5,0,0,1,833.068,460.252Z" fill="#ffffff"></path> </g> </g></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        
+        {% endif %}
+    </div>
+    <div class="space"></div>
+    <div class="title">
+        Trainers on December 3
+    </div>
+    <div class="speaker-ar">
+        {% if site.data.training[0].name %}
+            {% assign trainers = site.data.training | sort: 'time' %}
+            {% for trainer in trainers %}
+                {% assign fullname="" %}
+                    {% if trainer.name2 %} 
+                        {% capture fullname %}{{trainer.name}} and {{trainer.name2}}{% endcapture %}
+                    {% else %}
+                        {% capture fullname %}{{trainer.name}}{% endcapture %}
+                    {% endif %}
+                {% if trainer.confirmed %}
+                <div class="highlight">
+                    <div class="left">
+                    {% if trainer.image %}
+                        <div class="icon" style="background-image: url(&quot;/assets/images/speakers/{{trainer.image}}&quot;);"></div>
+                    {% endif %}
+                    </div>
+                    <div class="right">
+                        <div class="name"><a href="/program/training#{{fullname | replace: " ","-"}}">{{fullname}}
+                        </a></div>
+                        <div class="rightarrow">
+                            <a href="/program/training#{{fullname | replace: " ","-"}}">
+                                <svg width="2em" height="1em" viewBox="-25.77 -25.77 127.34 127.34" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="currentColor" stroke-width="0.00075804"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.30321600000000004"></g><g id="SVGRepo_iconCarrier"> <g id="Group_65" data-name="Group 65" transform="translate(-831.568 -384.448)"> <path id="Path_57" data-name="Path 57" d="M833.068,460.252a1.5,1.5,0,0,1-1.061-2.561l33.557-33.56a2.53,2.53,0,0,0,0-3.564l-33.557-33.558a1.5,1.5,0,0,1,2.122-2.121l33.556,33.558a5.53,5.53,0,0,1,0,7.807l-33.557,33.56A1.5,1.5,0,0,1,833.068,460.252Z" fill="#ffffff"></path> </g> </g></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+        
+        {% endif %}
+    </div>
+</section>

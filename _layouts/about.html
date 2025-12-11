@@ -1,0 +1,21 @@
+{% include header.html %}
+<body>
+    <div class="home">
+        {% include nav.html %}
+        <div class="hero-mini" style="background-image: url(&quot;/assets/images/speaker1.jpg&quot;);">
+            <div class="left">
+                <div class="black-layer"></div>
+                <div class="heading">{{ page.title }}</div>
+            </div>
+        </div>
+        {% include about_intro.html %}
+        {% include about_member.html %}
+        {% include about_quick_code_conduct.html %}
+        {% include about_long_code_conduct.html %}
+        {% include home_previous_conferences.html %}
+    </div>
+
+    {% include footer.html %}
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+# Useful FAQ
+
+  - question  : What is OWASP?
+    answer    : OWASP (Open Worldwide Application Security Project) is a non-profit organization focused on improving the security of software through community-led open-source projects, tools, and education.
+    weight    : 10
+
+  - question  : What is the OWASP Top 10?
+    answer    : The OWASP Top 10 is a regularly updated list of the ten most critical web application security risks, serving as a guide for developers and organizations to build secure applications.
+    weight    : 20
+
+  - question  : How can developers use OWASP resources?
+    answer    : Developers can use OWASP tools like SAMM, checklists, the Top 10 guide, and secure coding practices provided in OWASP documentation to write more secure code.
+    weight    : 30
+
+  - question  : Is OWASP only for developers?
+    answer    : No, OWASP provides resources for developers, testers, security professionals, and business leaders to improve application security across all levels of an organization.
+    weight    : 40
+
+  - question  : Where can I access OWASP projects?
+    answer    : OWASP projects can be accessed for free on their official website at <a href="https://owasp.org" target="_blank">www.owasp.org</a>, where users can find tools, documentation, and community initiatives.
+    weight    : 40

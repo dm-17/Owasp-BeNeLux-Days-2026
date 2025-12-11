@@ -1,0 +1,22 @@
+<div class="pre-events">
+    <div class="head">PREVIOUS OWASP BENELUX DAYS</div>
+    <div class="events">
+        {% if site.data.previous_conferences %}
+                {% for conference in site.data.previous_conferences | sort: 'year' %}
+                    <div class="event">
+                        {% if conference.picture %}
+                            <div class="image" style="background-image: url(&quot;{{ site.baseurl }}/assets/images/{{conference.picture}}&quot;);"></div>
+                        {% endif %}
+                        <div class="year">{{ conference.year }}</div>
+                        <div class="location">{{ conference.location }}</div>
+                        <div class="text">{{ conference.text }}</div>
+                        <a href="https://{{ conference.year }}.owaspbenelux.eu" target="_blank"><button class="btn bg-lg">Read More</button></a>
+                    </div>
+                {% endfor %}
+        {% else %}
+            <div class="text">
+                An issue happened, come back later.
+            </div>
+        {% endif %}
+    </div>
+</div>

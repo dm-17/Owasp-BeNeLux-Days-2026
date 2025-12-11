@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+.socialevent {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialevent .left {
+    display: grid;
+    padding: 80px 60px;
+    flex: 1;
+    color:#3b4858;
+    width: 300px;
+}
+
+.socialevent .left .head {
+    font-size: 80px;
+    color:#3b4858;
+}
+
+.socialevent .left .head a {
+    text-decoration: none;
+    color: #3b4858;
+}
+
+.socialevent .left .pre-heading {
+    font-size: 20px;
+    font-family: inter;
+    line-height: 28px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color:#000
+}
+
+.socialevent .left .sub-heading {
+    font-size: 20px;
+    font-family: inter;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color:#000
+}
+
+.socialevent .left .sub-heading a {
+    text-decoration: none;
+    color: #717a86;
+    font-family: inter;
+}
+
+.socialevent .left .sub-heading li {
+    line-height: 26px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    list-style-type:none
+}
+
+.socialevent .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px 60px;
+}
+
+.socialevent .right .socialeventlocation {
+    flex: 3;
+    background-image: url(/assets/images/anker.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+}
+
+.socialevent .right .title {
+    flex: 4;
+    display: block;
+    font-family: inter;
+    font-size: 25px;
+    color:#3b4858;
+    max-height: 25px;
+    position: 300px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.socialevent .right .socialeventsponsor {
+    display: block;
+    flex: 5;
+    background-image: url(/assets/images/sponsors/semgrep.png);
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-width: 150px;
+    max-width: 300px;
+    margin-top: 10px;
+    min-height: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .socialevent {
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        justify-content: center;
+    }
+
+    .socialevent .left {
+        display: block;
+        flex: 1;
+        width: 80%;
+        margin: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px !important;
+        padding-top: 0px;
+        padding-bottom: 0px !important;
+    }
+
+    .socialevent .left .sub-heading {
+        font-size:16px
+    }
+
+    .socialevent .right {
+        flex:2;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px !important;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .socialevent .right .socialeventlocation {
+        width: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .socialevent .right .socialeventsponsor {
+        display: block;
+        padding: 0px;
+        min-height: 50px;
+    }
+        
+
+}
+
+
+

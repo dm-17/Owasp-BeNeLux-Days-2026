@@ -1,0 +1,49 @@
+# Useful Sponsor FAQ
+
+  - question  : What will be the dimensions of the booth?
+    answer    : Depending on your Sponsorship package you will be provided with tables of approximate dimensions of either 1mx1m or 2mx2m with two chairs and a power outlet in the area designated to you.
+    weight    : 5
+
+  - question  : What will be the dimensions of the Banner roll up?
+    answer    : The sponsor has to provide their own banner where a Gold Sponsor can place regular 1x2 banners and platinum sponsors can place larger banners.
+    weight    : 10
+
+  - question  : Will there be electricity provided or do we have to pay for it?
+    answer    : Electricity will be provided.
+    weight    : 15
+
+  - question  : Do we have Wifi available at the event and do we have to pay for it?
+    answer    : Wifi will be provided for free at the venue.
+    weight    : 20
+
+  - question  : Do we get screens and equipment?
+    answer    : OWASP doesn’t provide any screens or equipment. It is the sole responsibility of the sponsor to arrange and vacate it at the end of the event. Please reach out to one of the volunteers in time to see if we can help you.
+    weight    : 25
+
+  - question  : Do we get to choose the location of the booth?
+    answer    : No, this is done by the organizers team depending on parameters like space and first come first serve.
+    weight    : 30
+
+  - question  : Do you provide any kind of lead collection mechanism?
+    answer    : We do not provide any kind of lead collection mechanism. You are free to collect information from the people you talk to or the ones who come to your booth with their consent.
+    weight    : 35
+
+  - question  : Do you provide any kind of information with respect to the attendees post conference?
+    answer    : We do not share any kind of information on the attendees post event. You are free to collect information from the people you talk to or the ones who come to your booth with their consent.
+    weight    : 40
+
+  - question  : Do you have the floor plan for the venue?
+    answer    : Please ask the OWASP member you are in touch with for more details on this.
+    weight    : 45
+
+  - question  : How many people will be attending?
+    answer    : We are expecting from 200 to 300 people attending this event.
+    weight    : 50
+
+  - question  : Can I send my equipment beforehand?
+    answer    : If necessary, material can be sent beforehand, specifically marked as “OWASP, BeNeLux 2026”. Please ask the OWASP member you are in touch with for more details on this.
+    weight    : 55
+
+  - question  : Are you interested in sponsoring/contributing towards the OWASP BeNeLux social event?
+    answer    : Please ask more details from the OWASP member you are in touch with.
+    weight    : 60

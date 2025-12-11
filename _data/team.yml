@@ -1,0 +1,26 @@
+- chapter   : NL
+  name      : Owasp Netherlands Chapter
+  flag      : <svg xmlns="http://www.w3.org/2000/svg" class="flag" width="300" height="200" viewBox="0 0 9 6"><rect fill="#21468B" width="9" height="6"/><rect fill="#FFF" width="9" height="4"/><rect fill="#AE1C28" width="9" height="2"/></svg>
+  members   :
+    - name  : Joren Poll
+
+    - name  : Edwin Gozeling
+
+    - name  : Amit Sharma
+
+    - name  : Priyam Awasthy
+
+
+- chapter   : BE
+  name      : Owasp Belgium Chapter
+  flag      : <svg xmlns="http://www.w3.org/2000/svg" class="flag" width="300" height="200" viewBox="0 0 9 6"><rect fill="#ef3340" width="9" height="9"/><rect fill="#fdda25" width="6" height="9"/><rect fill="#000" width="3" height="9"/></svg>
+  members   :
+    - name  : Lieven Desmet
+
+    - name  : David Mathy
+
+    - name  : Stella Dineva
+
+    - name  : Maxim Baele
+
+    - name  : Sebastien Deleersnyder

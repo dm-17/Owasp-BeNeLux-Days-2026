@@ -1,0 +1,22 @@
+
+{% if site.data.team[0].chapter %}
+{% assign countries = site.data.team | sort: 'chapter'  %}
+
+{% for country in countries %}
+<div class="about-team">
+    <div class="country">
+        <div class="left">
+            {{ country.flag }}
+        </div>
+        <div class="mid">{{ country.name }}</div>
+    </div>
+    <div class="right">
+        <ul>
+        {% for member in country.members %}
+            <li>{{ member.name }}</li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endfor %}
+{% endif %}

@@ -1,0 +1,26 @@
+<div class="faq">
+    <div class="head">FREQUENTLY ASKED QUESTIONS</div>
+    <div class="section">
+        <div class="left" style="grid-template-columns: auto;">
+            {% if site.data.sponsor_faq %}
+                {% assign id = 0 %}
+                {% for entry in site.data.sponsor_faq | sort: 'weight' %}
+                    <div class="faq-section">
+                        <div class="faq-single">
+                            <div class="l-icon">+</div>{{ entry.question }}<div class="r-icon" onclick="toggle_sponsor_faq({{ id }})">+</div>
+                        </div>
+                    </div>
+                    <div class="faq-ans" id="faq-ans{{ id }}" style="display: none;">{{ entry.answer }}</div>
+                    {% assign id = id | plus: 1  %}
+                    {% if id == 10 %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                <div class="faq-section">
+                    An issue happened, come back later.
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

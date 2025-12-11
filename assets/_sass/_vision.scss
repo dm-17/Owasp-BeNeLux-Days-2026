@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.vision {
+    padding: 60px;
+    background-color: #3b4858;
+    color:#fff
+}
+
+.vision .title-icon {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom:40px
+}
+
+.vision .title-icon .title {
+    font-size:80px
+}
+
+.vision .title-icon .icon {
+    width: 80px;
+    height: 80px;
+    background-image: url(/assets/images/logo_white.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat:no-repeat
+}
+
+.vision .content li {
+    color: #fff;
+    font-weight: 200;
+    line-height:40px
+}
+
+@media screen and (max-width: 700px) {
+    .vision {
+        padding:60px 20px
+    }
+
+    .vision .title-icon .title {
+        font-size: 40px;
+        font-weight:100
+    }
+
+    .vision .title-icon .icon {
+        width: 100px;
+        height: 100px;
+        display:none
+    }
+
+    .vision .content {
+        display: grid;
+        gap:20px
+    }
+
+    .vision .title-icon {
+        flex-direction: column;
+        gap:20px
+    }
+}

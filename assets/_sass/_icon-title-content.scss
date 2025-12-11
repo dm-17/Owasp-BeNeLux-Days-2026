@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+.icon-title-content {
+    padding: 60px;
+    color:#3b4858
+}
+
+.icon-title-content .title {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom:60px
+}
+
+.icon-title-content .icon {
+    margin: auto auto 60px;
+    width: 200px;
+    height: 70px;
+    background-image: url(/assets/icons/icon_long.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat:no-repeat
+}
+
+.icon-title-content .content {
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 300;
+    text-align:center;
+}
+
+.icon-title-content .content a {
+    font-family:inter
+}
+
+.icon-title-content .content p {
+    font-family:inter;
+    margin-bottom: 15px;
+}
+
+.icon-title-content .content h1,h2,h3,h4,h5 {
+    font-family:Bebas Neue;
+}
+
+.icon-title-content .content h1{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom:20px
+}
+
+.icon-title-content .content h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom:20px
+}
+
+.icon-title-content .content li{
+    font-family: inter;
+    list-style-type: disc;
+    font-size: 18px;
+    text-align: left;
+    color:$darkgray
+}
+
+@media screen and (max-width: 700px) {
+    .icon-title-content {
+        padding:60px 20px
+    }
+
+    .icon-title-content .title {
+        font-size: 50px;
+    }
+
+    .icon-title-content .content h1{
+        font-size: 50px;
+    }
+
+    .icon-title-content .content h1{
+        font-size: 40px;
+    }
+
+}

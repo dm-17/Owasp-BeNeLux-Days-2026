@@ -1,0 +1,25 @@
+{% include header.html %}
+<body>
+    <div class="home">
+        {% include nav.html %}
+        <div class="sponsors-page">
+            <div class="hero-mini" style="background-image: url(&quot;/assets/images/speaker4.jpg&quot;);">
+                <div class="left">
+                    <div class="black-layer"></div>
+                    <div class="heading">{{ page.title }}</div>
+                </div>
+            </div>
+            <div class="icon-title-content">
+                <div class="content">{{ content }}</div>
+            </div>
+            {% include home_sponsors.html %}
+            {% include sponsor_table.html %}
+            {% include sponsor_contact.html %}
+            {% include sponsor_faq.html %}
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+</body>
+</html>

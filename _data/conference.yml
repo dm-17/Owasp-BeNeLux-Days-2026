@@ -1,0 +1,406 @@
+# 26/11/2026
+# Waiting for new content This one may be removed when content is provided.
+# - image   : owasp_logo.png
+#   day     : 28/11/2024
+#   time    : 09:00 - 17:00
+#   name    : Owasp Conference
+#   name2   : An accomplice
+#   bio     : Game changer in security
+#   title   : BeNeLux Days Conference
+#   abstract: Day full of fun!
+#   feed    : https://youtu.be/short-link
+#   url     : https://www.google.com/
+#   urltag  : PDF
+#   linkedin: 
+#   linkedin2: 
+#   x_handle:
+#   x_handle2:
+#   infosec:
+#   display : yes
+#   confirmed: yes
+
+  - type    : info
+    day     : 26/11/2026
+    time    : 9:00 - 17:00
+    title   : Conference
+    
+  - type    : break
+    day     : 26/11/2026
+    time    : 08:30 - 09:00
+    title   : Registration booth and welcome coffee
+    display : yes
+
+  - type    : break
+    day     : 26/11/2026
+    time    : 09:00 - 09:15
+    name    : Owasp BeNeLux Team
+    title   : Opening / Welcome
+    display : yes
+    
+  - type    : talk
+    image   : Vera-Rim.jpg
+    day     : 26/11/2026
+    time    : 16:20 - 17:05
+    name    : Vera Rimmer
+    bio     : >-
+              Dr. Vera Rimmer is a research expert at the DistriNet research group at 
+              KU Leuven, where she conducts and leads research activities in the 
+              intersection of security, privacy and AI. Her doctorate focused on applying 
+              deep learning in anonymity networks and network defense systems. Currently, 
+              Vera and her team explore data analytics in network intrusion and malware 
+              detection and analysis, and trustworthiness of AI in the wider ICT context. 
+              Vera is interested in developing comprehensive understanding, reasonable 
+              expectations and mitigation of risks of AI in the age of uncontrolled data 
+              collection and inference.
+    title   : Closing Keynote - Navigating the Security Landscape of Modern AI&#58; Promises and Pitfalls
+    abstract: >-
+              The fast-evolving ecosystem of AI-enabled applications has exposed a complex 
+              interplay of vulnerabilities, some stemming from intrinsic pitfalls of 
+              data-driven AI and others arising from its unsafe integration into real-world 
+              applications. Integrating AI inevitably increases the threat landscape of a 
+              system, but the exact implications can be hard to predict. The goal of this 
+              talk is to raise awareness about the underlying principles and challenges of 
+              security and privacy of modern AI systems, including LLMs, and to review the 
+              ongoing mitigation efforts by both academic and industry players.
+    linkedin: https://www.linkedin.com/in/verarim/
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : talk
+    image   : Tobie-Langel.jpg
+    day     : 26/11/2026
+    time    : 15:40 - 16:20
+    name    : Tobie Langel
+    bio     : >-
+              Tobie Langel is the Founder and Principal of UnlockOpen, a boutique consulting 
+              firm that specializes in helping organizations successfully navigate open tech 
+              ecosystems.<br />
+              <br />
+              Through his consulting firm and or pro bono, Tobie advises&#58;<br />
+              <ul>
+              <li>Leading tech firms such as Google, Microsoft, Mozilla, Intel, Cisco, Postman, 
+              Airtable, and GitLab;</li>
+              <li>Industry organizations and Standards Developing Organizations (SDOs) including 
+              OpenSSF, OpenJSF, OASIS Open, Eclipse and W3C;</li>
+              <li>NGOs, philanthropies, and policy makers, among them the Atlantic Council, 
+              OpenForum Europe, the United Nations’ Digital Public Goods Alliance, and the 
+              European Commission&#39;s CRA Expert Group.</li>
+              </ul>
+              <br />
+              Before establishing UnlockOpen, Tobie led Facebook’s standards initiative, 
+              representing the company at W3C and spearheading the Web Platform Tests open source 
+              initiative as a W3C Fellow.<br />
+              <br />
+              Tobie is well-known for having co-maintaining one of the world’s largest JavaScript 
+              libraries, editing multiple web standards implemented in all modern browsers, and for 
+              his public speaking and keynotes at key industry events.<br />
+              <br />
+              Tobie is also sits on the Board of the OpenJSF Foundation, is Vice Chair of the 
+              Foundation Cross Project Council, and sits on W3C&#39;s Board Audit Committee.
+
+    title   : The Missing Post Mortem
+    abstract: >-
+              The first half of 2024 saw an entirely new category of threat against open source, one 
+              that rocked its trust-based system at its core&#58; social engineering takeover attempt 
+              of critical open source projects.<br />
+              <br />
+              These attacks uncovered a systemic gap in open source security management.<br />
+              <br />
+              Up until now, the open source community wasn’t thought of as a potential cyber attack 
+              target. But when critical open source projects become stepping stones for industrial 
+              espionage, ransomware attacks, or cyberwarfare, maintainers need to adopt comparable 
+              security practices to those found in target organizations.<br />
+              <br />
+              This creates a unique set of challenges for open source because of its highly distributed 
+              nature and volunteer-based model. Meaningfully improving security at scale while preserving 
+              the ethos, culture, and diversity of communities that characterize open source and that are 
+              largely responsible for its innovative potential isn&#39;t an easy task.<br />
+              <br />
+              In this talk we&#39;ll do a post-mortem of the social engineering takeover attempt at the 
+              OpenJS Foundation. While preserving confidentiality, we&#39;ll outline industry gaps 
+              uncovered during this attack. We&#39;ll suggest ways to meaningfully improving security at 
+              scale while preserving the ethos, culture, and diversity of communities that characterize 
+              open source and that are largely responsible for its success.
+    linkedin: https://www.linkedin.com/in/tobielangel/
+    x_handle: https://x.com/tobie
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : talk
+    image   : Siegfried-Hollerer.png
+    day     : 26/11/2026
+    time    : 11:10 - 11:50
+    name    : Siegfried Hollerer
+    bio     : >-
+              Siegfried has seven years of experience as a penetration tester, 
+              focusing on the analysis of web applications, IT/OT infrastructures, 
+              and social engineering attacks. In addition to his practical experience, 
+              he has obtained an OSCP certificate. Furthermore, Siegfried has gained 
+              experience in incident response.  During this time, he also carried out 
+              security management consultations, audits and certifications based on 
+              the OT security standard IEC 62443 and the IT security standard ISO 
+              27000.<br />
+              <br />
+              Since 2020, he has conducted scientific research into the integrated 
+              modelling of IT and OT security requirements in combination with functional 
+              safety and quality requirements. This has resulted in several publications, 
+              which are accessible via IEEE, ACM, Elsevier and Springer. During his 
+              research, he identified the vulnerabilities CVE-2021-47662, CVE-2021-47663, 
+              and CVE-2021-47664.<br />
+              <br />
+              In 2023, Siegfried joined the Federal Ministry of the Interior (BMI) in 
+              Austria as a security architect and analyst to enforce the “Netz- und 
+              Informationssystemsicherheitsgesetz” (NISG), which is the national 
+              implementation of the NIS EU directive [cf. Directive (EU) 2016/1148] .<br />
+              <br />
+              He also works as a lecturer at St. Pölten University of Applied Sciences, 
+              delivering lectures on web application and infrastructure penetration testing, 
+              network traffic analysis and reverse engineering, and supervising bachelor&#39;s 
+              and master&#39;s theses. He has been the OWASP OT Top 10 Project Leader since 2026.
+    title   : OWASP Top 10 … but for OT?!
+    abstract: >-
+              Operational Technology (OT) encompasses a wide variety of programmable systems 
+              and devices that have direct or indirect interactions with the physical 
+              environment. These technologies are integral to numerous sectors such as 
+              manufacturing, energy, transportation, medical, and utilities, where they play a 
+              crucial role in the operation and management of physical processes. As OT systems 
+              become more interconnected and integrated with Information Technology (IT) networks, 
+              they face increased vulnerability to large-scale cyber attacks. This integration, 
+              while beneficial for operational efficiency and data sharing, exposes OT systems to 
+              the same cyber threats that typically target IT environments.<br />
+              <br />
+              The goal of the OWASP OT Top 10 is to raise awareness about the top security risks 
+              and vulnerabilities specific to OT environments. By providing actionable recommendations, 
+              we aim to improve the security posture of OT systems and protect critical infrastructure 
+              from cyber threats. This talk presents the new release of the initial OWASP OT Top 10 to 
+              a broader audience to achieve awareness if its existence, alignment with the 
+              state-of-the-art and applicability in the OT domain.
+    linkedin: https://www.linkedin.com/in/siegfried-hollerer-1ab397162/
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : talk
+    image   : Avi-Douglen.png
+    day     : 26/11/2026
+    time    : 09:15 - 10:00
+    name    : Avi Douglen
+    bio     : >-
+              Avi Douglen has been building secure applications for decades, and is *obsessed* with 
+              maximizing value output from security efforts. Avi is the founder and CEO of Bounce Security,
+              a boutique consulting agency dedicated to helping product developers integrate security 
+              efficiently into their workflows. He is a frequent speaker and trainer, and has trained 
+              thousands of developers to build more secure products. AviD is a current member of the OWASP 
+              Global Board of Directors and was the previous Chair of the Board. He also leads the OWASP 
+              Israel chapter, created the popular AppSecIL security conference, and co-founded the OWASP 
+              Application Privacy project. He also co-authored the Threat Modeling Manifesto. 
+    title   : Keynote - Get Out of your Bubble&#58; Collaborative Threat Modeling
+    abstract: >-
+              Threat modeling by yourself is great - noone is there to tell you you&#39;re wrong. But if 
+              you want to discover nontrivial issues that you don&#39;t have on your checklist, you&#39;ll 
+              need to engage with others. Too often, though, we chase them away. One of the biggest traps 
+              is falling down a rabbit hole of technical details, without involving other stakeholders or 
+              considering their perspectives. This lack of context creates an inaccurate model of the system, 
+              misguided threats, and inefficient investment of security effort.<br />
+              <br />
+              In this keynote, we will look at ways to make security more social and lightweight - how to 
+              productively engage with teammates, challenge your own assumptions, and drive actionable, 
+              high-value outcomes that make AppSec truly collaborative.
+    linkedin: https://www.linkedin.com/in/avidouglen/
+    x_handle: https://x.com/sec_tigger
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : talk
+    image   : Efthymios-Lalas.png
+    day     : 26/11/2026
+    time    : 10:00 - 10:40
+    name    : Efthymios Lalas
+    bio     : >-
+              Efthymios has been with the European Commission in Luxembourg since 2014 and is 
+              currently Deputy Head of the Cybersecurity Policy Implementation Unit at DG DIGIT. 
+              He leads, among other initiatives, the definition and implementation of the 
+              Corporate Cybersecurity Strategy 2026–2026 and chairs both internal and 
+              interinstitutional working groups on Cybersecurity for Artificial Intelligence.<br />
+              <br />
+              Previously at DG DIGIT, he headed the Security Assurance sector, overseeing security 
+              testing and vulnerability management, and earlier worked in the incident response team, 
+              coordinating the Commission’s response to cybersecurity incidents.<br />
+              <br />
+              He recently completed a Master’s in Artificial Intelligence for Public Services (AI4GOV) 
+              and also holds degrees in Computer Engineering & Informatics (five-year Diploma equivalent 
+              to a Master’s in Engineering), Digital Systems Security (MSc), and Business Administration 
+              & Management (BSc). In addition, he has pursued executive education programs in leadership, 
+              strategic management, and people development, and holds numerous professional certifications 
+              in the field of cybersecurity.
+    title   : AI Security Frameworks&#58; Insights from the European Commission&#39;s Journey
+    abstract: >-
+              Artificial Intelligence (AI) technologies are impacting individuals and organisations, 
+              transforming the way we work. At the same time, threats related to the use of AI systems are 
+              evolving at the same pace. As stated in ENISA Threat Landscape Report 2026, the increased 
+              integration of AI systems into enterprise environments introduces a potentially vulnerable 
+              new attack surface.<br />
+              <br />
+              This talk provides an inside look at the Commission’s journey in evaluating and selecting AI 
+              security frameworks, focusing on why the OWASP AI Top 10 was chosen as a reference point.
+    linkedin: https://www.linkedin.com/in/efthymios-lalas/
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : talk
+    image   : Aram-Hovsepyan.jpg
+    day     : 26/11/2026
+    time    : 13:40 - 14:20
+    name    : Aram Hovsepyan
+    bio     : >-
+              Aram is the founder and the CEO of Codific. With over 15 years of application security 
+              experience, he has a proven track record in building complex software systems by 
+              explicitly focusing on quality.<br />
+              <br />
+              Aram has a PhD in cybersecurity from DistriNet KU Leuven. His contributions to the 
+              refinement and streamlining of the LINDDUN privacy engineering methodology have been 
+              incorporated into ISO and NIST standards.<br />
+              <br />
+              Aram is also a core contributor to the OWASP SAMM project.
+    title   : Your Security Dashboard is Lying to You&#58; The Science of Metrics
+    abstract: >-
+              Security teams love metrics. Beautiful dashboards, filled with vulnerability counts, 
+              alert volumes, SLA compliance for fix times, training hours logged, etc. However, do any 
+              of these metrics actually make organizations more secure? The uncomfortable truth is 
+              that most security metrics are questionable, at least from a scientific perspective.<br />
+              <br />
+              In this talk, I will focus on the science behind meaningful security metrics. I will 
+              introduce a framework that helps define metrics based on organization-specific goals, as 
+              opposed to creating purpose around whatever metrics we have lying around. From there, I 
+              will break down what are the key qualities of a good metric. Finally, I will briefly 
+              present the different data analysis methods and the common validity threats when going 
+              from metric values back to supporting your goals.<br />
+              <br />
+              &#34;If you can&#39;t measure it, you can&#39;t improve it&#34;. However, if your security strategy is 
+              built on questionable metrics, you might not be improving the right things. This talk 
+              will challenge industry assumptions and provide scientific backing to the fact that many 
+              widely used security metrics in the industry might be vanity numbers.
+    linkedin: https://www.linkedin.com/in/aramhovsep/
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : talk
+    image   : Elar-Lang.jpg
+    day     : 26/11/2026
+    time    : 14:30 - 15:10
+    name    : Elar Lang
+    bio     : >-
+              Elar Lang is a web application security specialist and enthusiast who has been working for 
+              more than 13 years in different aspects of web application security. A full-time security 
+              tester, training architect, and web application security developer educator (3000 hours of 
+              training). Likes to research and write proof-of-concepts for attacks. More than 5 years 
+              actively developing and co-leading a security standard - OWASP Application Security 
+              Verification Standard (ASVS).
+    title   : OWASP ASVS - what is it and what is new in the v5.0 release
+    abstract: >-
+              The first major release in five years of one of OWASP’s flagship projects - the Application 
+              Security Verification Standard (ASVS) version 5 - was announced on the OWASP Global AppSecEU 
+              conference on May 30 this year (2026).<br />
+              <br />
+              In this talk, Elar Lang, as one of the co-leaders and key authors of the concept for the 
+              version, introduces the project and points out key aspects from the latest release.<br />
+              <br />
+              This includes&#58;<br />
+              <ul>
+              <li>Defining and clarifying the scope of the ASVS, and expectations for requirements.</li>
+              <li>Mandating documented security decisions to provide some flexibility on implementing 
+              and verifying security requirements, to match the differences between organizations and 
+              applications.</li>
+              <li>Adding several new chapters, such as token validation, OAuth and OIDC.</li>
+              <li>Providing a two-way mapping to make it easier to migrate from v4.x to v5.</li>
+              <li>Balancing the levels and reducing the barrier to entry into Level 1.</li>
+              <li>The release strategy.</li>
+              <li>How you can contribute.</li>
+              </ul>
+    linkedin: https://linkedin.com/in/elarlang/
+    x_handle: https://x.com/elarlang
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : talk
+    image   : Olle-E-Johansson.jpg
+    day     : 26/11/2026
+    time    : 12:00 - 12:40
+    name    : Olle E Johansson
+    bio     : >- 
+              Olle E. Johansson has over twenty years of experience in telecommunications, VoIP, and 
+              cybersecurity. Olle is active in open-source projects and standard forums, the founder 
+              of major appsec and network security initiatives, and a specialist for various categories 
+              of software bills of materials (SBOM). These days, SBOMs are everywhere, but not every 
+              SBOM use is equally successful. Olle will tell us how to improve their application, how to 
+              work with them day in and day out and how to develop your own SBOM lifestyle for your 
+              organization.
+    title   : The SBOM and the Software Security Regulation Revolution
+    abstract: >-
+              The society has given up on letting the IT industry handle cyber security by itself. The 
+              cost for society is going up, the number of incidents is rising all the time. The regulators 
+              are moving in across the globe, and we’re getting regulated. At the heart of many regulations 
+              is vulnerability management—keeping products secure during the lifetime in use. Olle will go 
+              through how it’s planned to work and the sad smelly truth about the state of the 
+              vulnerability management platforms today. From Software bill of materials over vulnerability 
+              databases to EU regulation. The main question in all of this is&#58; Are you ready to be 
+              regulated?
+    feed    : 
+    url     : 
+    urltag  : 
+    linkedin: https://www.linkedin.com/in/olle.johansson
+    infosec : https://infosec.exchange/@Oej
+    x_handle: https://x.com/oej
+    display : yes
+    confirmed: yes
+
+  - type    : break
+    day     : 26/11/2026
+    time    : 10:40 - 11:10
+    title   : Break
+    display : yes
+
+  - type    : break
+    day     : 26/11/2026
+    time    : 12:40 - 13:40
+    title   : Lunch
+    display : yes
+
+
+  - type    : break
+    day     : 26/11/2026
+    time    : 15:10 - 15:40
+    title   : Break
+    display : yes
+
+  - type    : break
+    day     : 26/11/2026
+    time    : 17:05 - 17:30
+    name    : Owasp BeNeLux Team
+    title   : Closing
+    display : yes
+
