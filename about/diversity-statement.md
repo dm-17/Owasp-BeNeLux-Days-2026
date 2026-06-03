@@ -11,4 +11,4 @@ The crux of security is the ability to think flexibly and creatively about multi
 * Encourage the amazing speakers and trainers you know to apply
 * Forward our call for papers to your local affinity groups and ensure that they know OWASP is an inclusive place to speak.
 * Speak at your local affinity group’s meetings about the opportunities at OWASP and invite them to attend local meetings and events.
-* Suggest ways that the onsite conference experience can be more welcoming and supportive. Send an email to: [irfaan.santoe@owasp.org](mailto:irfaan.santoe@owasp.org)
+* Suggest ways that the onsite conference experience can be more welcoming and supportive. Send an email to: [netherlands@owasp.org](mailto:netherlands@owasp.org)
