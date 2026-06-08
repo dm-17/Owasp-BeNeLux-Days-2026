@@ -1,6 +1,6 @@
 
 {% if site.data.team[0].chapter %}
-{% assign countries = site.data.team | sort: 'chapter'  %}
+{% assign countries = site.data.team | sort: 'chapter' | reverse %}
 
 {% for country in countries %}
 <div class="about-team">
