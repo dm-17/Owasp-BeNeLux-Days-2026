@@ -15,7 +15,8 @@
 # #     url  : program/socialevent
 # # - title: Location
 # #   url  : location/
-# - title: Sponsor
+- title: Sponsor
+  url: assets/files/OWASP_Sponsorship_Brochure_Benelux_2026.pdf
 #   url  : sponsor
 #   items:
 #   - title: Sponsor
