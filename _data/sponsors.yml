@@ -12,54 +12,54 @@
   #   level    : Platinum|Gold|Silver|Social event
   #   style    :
 
-  - image    : aikidodev.svg
-    name     : Aikido Dev
-    url      : https://www.aikido.dev
-    level    : Gold
-    style    :
+  # - image    : aikidodev.svg
+  #   name     : Aikido Dev
+  #   url      : https://www.aikido.dev
+  #   level    : Gold
+  #   style    :
 
-  - image    : opentext.png
-    name     : OpenText
-    url      : https://www.opentext.com
-    level    : Platinum
-    style    :
+  # - image    : opentext.png
+  #   name     : OpenText
+  #   url      : https://www.opentext.com
+  #   level    : Platinum
+  #   style    :
 
 
-  - image    : iriusrisk.png
-    name     : IriusRisk
-    url      : https://www.iriusrisk.com
-    level    : Platinum
-    style    :
+  # - image    : iriusrisk.png
+  #   name     : IriusRisk
+  #   url      : https://www.iriusrisk.com
+  #   level    : Platinum
+  #   style    :
 
-  - image    : armorcode.svg
-    name     : ArmorCode
-    url      : https://www.armorcode.com
-    level    : Platinum
-    style    :
+  # - image    : armorcode.svg
+  #   name     : ArmorCode
+  #   url      : https://www.armorcode.com
+  #   level    : Platinum
+  #   style    :
 
-  - image    : endorlabs.png
-    name     : Endor Labs
-    url      : https://www.endorlabs.com
-    level    : Gold
-    style    :
+  # - image    : endorlabs.png
+  #   name     : Endor Labs
+  #   url      : https://www.endorlabs.com
+  #   level    : Gold
+  #   style    :
 
-  - image    : sonarsource.svg
-    name     : Sonar Source
-    url      : https://www.sonarsource.com
-    level    : Gold
-    style    :
+  # - image    : sonarsource.svg
+  #   name     : Sonar Source
+  #   url      : https://www.sonarsource.com
+  #   level    : Gold
+  #   style    :
 
-  - image    : sonatype.svg
-    name     : Sonatype
-    url      : https://sonatype.com
-    level    : Platinum
-    style    :
+  # - image    : sonatype.svg
+  #   name     : Sonatype
+  #   url      : https://sonatype.com
+  #   level    : Platinum
+  #   style    :
 
-  - image    : toreon.png
-    name     : Toreon
-    url      : https://www.toreon.com
-    level    : Platinum
-    style    :
+  # - image    : toreon.png
+  #   name     : Toreon
+  #   url      : https://www.toreon.com
+  #   level    : Platinum
+  #   style    :
 
   # - image    : synopsys-blackduck.png
   #   name     : Synopsys
@@ -67,17 +67,17 @@
   #   level    : Gold
   #   style    : 
 
-  - image    : semgrep.png
-    name     : Semgrep
-    url      : https://semgrep.dev
-    level    : Gold
-    style    :
+  # - image    : semgrep.png
+  #   name     : Semgrep
+  #   url      : https://semgrep.dev
+  #   level    : Gold
+  #   style    :
 
-  - image    : semgrep.png
-    name     : Semgrep
-    url      : https://semgrep.dev
-    level    : Social event
-    style    :
+  # - image    : semgrep.png
+  #   name     : Semgrep
+  #   url      : https://semgrep.dev
+  #   level    : Social event
+  #   style    :
 
   # - image    : nviso.png
   #   name     : NVISO
@@ -103,14 +103,14 @@
   #   level    : Social event
   #   style    :
 
-  - image    : securecodewarrior.png
-    name     : Secure Code Warrior
-    url      : https://www.securecodewarrior.com
-    level    : Platinum
-    style    :
+  # - image    : securecodewarrior.png
+  #   name     : Secure Code Warrior
+  #   url      : https://www.securecodewarrior.com
+  #   level    : Platinum
+  #   style    :
 
-  - image    : sealsecurity.png
-    name     : Seal Security
-    url      : https://www.seal.security
-    level    : Gold
-    style    :
+  # - image    : sealsecurity.png
+  #   name     : Seal Security
+  #   url      : https://www.seal.security
+  #   level    : Gold
+  #   style    :
