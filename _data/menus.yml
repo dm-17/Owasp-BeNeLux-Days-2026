@@ -16,7 +16,7 @@
 # # - title: Location
 # #   url  : location/
 - title: Sponsor
-   items:
+  items:
    - title: Sponsor
      url  : sponsor
    - title: FAQ
