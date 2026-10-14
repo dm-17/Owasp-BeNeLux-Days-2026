@@ -77,3 +77,45 @@
     urltag  : 
     display : yes
     confirmed: yes
+
+  - type    : training
+    image   : 
+    day     : 27/11/2026
+    time    : 09:00 - 17:00
+    name    : Sebastien Deleersnyder
+    bio     : >-
+              Sebastien Deleersnyder (Seba) is the CTO, co-founder of Toreon and COO of Data 
+              Protection Institute. With a strong background in development and extensive 
+              experience in cybersecurity, Seba has trained numerous developers on how to create 
+              more secure software. He is also the founder of the Belgian OWASP chapter and a former 
+              member of the OWASP Foundation Board. Through his work leading OWASP projects like 
+              OWASP SAMM, Seba has made a significant impact in improving the overall security of the 
+              world. Currently, he is focused on adapting application security models to the rapidly 
+              changing landscape of DevOps and promoting the importance of threat modeling to a broader 
+              audience.
+    title   : Old School Threat Modeling
+    abstract: >-
+              This one-day hands-on workshop takes threat modeling back to its human foundations. 
+              Participants work together around whiteboards and flipcharts to build and improve an 
+              actual threat model. No artificial intelligence or automation. Instead, we use real AI&#58;
+              Actual Intelligence. We learn by doing, asking questions, challenging assumptions, and 
+              thinking critically about what can go wrong.<br />
+              <br />
+              Along the way, we practice both the hard and soft skills of threat modeling&#58; understanding 
+              a system and its context, writing useful threat statements, discussing risk, finding meaningful 
+              mitigations, and facilitating the conversation. We connect technical threats to the real 
+              business and organizational context, including risk appetite, decisions, and follow-up. And while 
+              we deliberately leave AI out of the room for this workshop, everything you learn can be applied 
+              directly to AI-assisted threat modeling afterward.   
+    feed    :
+    url     : 
+    linkedin: https://www.linkedin.com/in/sebadele/
+    x_handle:
+    reqs    : >-
+              Participants should bring a laptop to access and download the course materials and handouts. 
+              No special software or tools are required.<br />
+              <br />
+              Other than that, just bring your common sense, curiosity and willingness to think critically.
+    urltag  : 
+    display : yes
+    confirmed: yes
