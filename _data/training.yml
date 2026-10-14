@@ -71,11 +71,9 @@
               security. Join us on this galactic adventure of exploring the OWASP MASVS and MASTG!    
     feed    :
     url     : 
-    linkedin: https://www.linkedin.com/in/aganariman/
+    linkedin: 
     x_handle:
-    reqs    : >-
-              Participants can bring their laptops in order to follow along with SAMM assessment, 
-              but it&#39;s not a requirement. Mostly the session will be interactive
+    reqs    : 
     urltag  : 
     display : yes
     confirmed: yes
