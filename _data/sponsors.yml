@@ -1,10 +1,10 @@
 # 
 
-  - image    : logo.svg
-    name     : OWASP
-    url      : https://www.owasp.org
-    level    : Gold
-    style    :
+ # - image    : logo.svg
+ #   name     : OWASP
+ #   url      : https://www.owasp.org
+ #   level    : Gold
+ #   style    :
 
   # - image    : logo.svg
   #   name     : OWASP
@@ -12,11 +12,11 @@
   #   level    : Platinum|Gold|Silver|Social event
   #   style    :
 
-  # - image    : aikidodev.svg
-  #   name     : Aikido Dev
-  #   url      : https://www.aikido.dev
-  #   level    : Gold
-  #   style    :
+   - image    : aikidodev.svg
+     name     : Aikido Dev
+     url      : https://www.aikido.dev
+     level    : Platinum
+     style    :
 
   # - image    : opentext.png
   #   name     : OpenText
@@ -31,23 +31,23 @@
   #   level    : Platinum
   #   style    :
 
-  # - image    : armorcode.svg
-  #   name     : ArmorCode
-  #   url      : https://www.armorcode.com
-  #   level    : Platinum
-  #   style    :
+   - image    : armorcode.svg
+     name     : ArmorCode
+     url      : https://www.armorcode.com
+     level    : Platinum
+     style    :
 
-  # - image    : endorlabs.png
-  #   name     : Endor Labs
-  #   url      : https://www.endorlabs.com
-  #   level    : Gold
-  #   style    :
+   - image    : endorlabs.png
+     name     : Endor Labs
+     url      : https://www.endorlabs.com
+     level    : Diamond
+     style    :
 
-  # - image    : sonarsource.svg
-  #   name     : Sonar Source
-  #   url      : https://www.sonarsource.com
-  #   level    : Gold
-  #   style    :
+   - image    : sonarsource.svg
+     name     : Sonar Source
+     url      : https://www.sonarsource.com
+     level    : Platinum
+     style    :
 
   # - image    : sonatype.svg
   #   name     : Sonatype
@@ -67,11 +67,11 @@
   #   level    : Gold
   #   style    : 
 
-  # - image    : semgrep.png
-  #   name     : Semgrep
-  #   url      : https://semgrep.dev
-  #   level    : Gold
-  #   style    :
+   - image    : semgrep.png
+     name     : Semgrep
+     url      : https://semgrep.dev
+     level    : Platinum
+     style    :
 
   # - image    : semgrep.png
   #   name     : Semgrep
@@ -114,3 +114,15 @@
   #   url      : https://www.seal.security
   #   level    : Gold
   #   style    :
+
+   - image    : thales.svg
+     name     : Thales
+     url      : https://www.thalesgroup.com/
+     level    : Diamond
+     style    :
+
+   - image    : cert2connect.svg
+     name     : Cert2Connect
+     url      : https://www.cert2connect.com/
+     level    : Platinum
+     style    :
