@@ -1,3 +1,4 @@
+{% assign diamondSponsors = site.data.sponsors | where:"level","Diamond" | sort: 'name' %}
 {% assign platinumSponsors = site.data.sponsors | where:"level","Platinum" | sort: 'name' %}
 {% assign goldSponsors = site.data.sponsors | where:"level","Gold" | sort: 'name' %}
 {% assign silverSponsors = site.data.sponsors | where:"level","Silver" | sort: 'name' %}
@@ -5,6 +6,21 @@
 {% if goldSponsors.size > 0 or silverSponsors.size > 0 or platinumSponsors.size > 0 or socialEventSponsors.size > 0 %}
     <div class="sponsors">
         <div class="head">OUR SPONSORS</div>
+
+    {% if diamondSponsors.size > 0 %}
+        <div class="sponsors subhead">Diamond sponsors</div>
+        <div class="images">
+            {% for sponsor in diamondSponsors %}
+                <a href="{{ sponsor.url }}" target="_blank">
+                    {% if sponsor.image %}
+                        <div class="img" style="background-image: url(&quot;{{ site.baseurl }}/assets/images/sponsors/{{sponsor.image}}&quot;);"></div>
+                    {% else %}
+                        {{ sponsor.name }}
+                    {% endif %}
+                </a>
+            {% endfor %}
+        </div>
+    {% endif %}
 
     {% if platinumSponsors.size > 0 %}
         <div class="sponsors subhead">Platinum sponsors</div>
