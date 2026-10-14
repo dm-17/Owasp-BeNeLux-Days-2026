@@ -5,12 +5,12 @@
 
 - title: Home
   url  : #
- - title: Program
-   items:
-   - title: Conference
-     url  : program/conference
-   - title: Training
-     url  : program/training
+- title: Program
+  items:
+  - title: Conference
+    url  : program/conference
+  - title: Training
+    url  : program/training
 #   - title: Social event
 # #     url  : program/socialevent
 # # - title: Location
