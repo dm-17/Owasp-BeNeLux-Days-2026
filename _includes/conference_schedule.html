@@ -1,7 +1,7 @@
 <section class="conference-schedule">
     {% if site.data.conference[0].title %}
         {% assign speakers = site.data.conference | sort: 'time' %}
-        {% assign table_headers='time, speaker, title' | split: ', ' %}
+        {% assign table_headers='speaker, title' | split: ', ' %}
         <h1>Program Schedule</h1>
         <table>
             <thead>
