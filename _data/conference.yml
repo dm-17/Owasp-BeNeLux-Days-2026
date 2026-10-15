@@ -206,6 +206,30 @@
     display : yes
     confirmed: yes
 
+  - type    : talk
+    image   : Olle-E-Johansson.jpg
+    day     : 26/11/2026
+    time    : 00:00 - 00:00
+    name    : Olle E. Johansson
+    bio     : >-
+              Olle E. Johansson has over twenty years of experience in telecommunications, VoIP, and 
+              cybersecurity. Olle is active in open-source projects and standard forums, the founder 
+              of major appsec and network security initiatives, and a specialist for various categories 
+              of software bills of materials (SBOM). These days, SBOMs are everywhere, but not every 
+              SBOM use is equally successful. Olle will tell us how to improve their application, how to 
+              work with them day in and day out and how to develop your own SBOM lifestyle for your 
+              organization.
+    title   : TBA
+    abstract: >-
+              TBA
+    linkedin: https://www.linkedin.com/in/ollejohansson/
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
   - type    : break
     day     : 26/11/2026
     time    : 10:40 - 11:10
