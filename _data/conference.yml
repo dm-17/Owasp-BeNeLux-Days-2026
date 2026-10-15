@@ -28,14 +28,14 @@
     day     : 26/11/2026
     time    : 08:30 - 09:00
     title   : Registration booth and welcome coffee
-    display : yes
+    display : no
 
   - type    : break
     day     : 26/11/2026
     time    : 09:00 - 09:15
     name    : Owasp BeNeLux Team
     title   : Opening / Welcome
-    display : yes
+    display : no
     
   - type    : talk
     image   : 
@@ -104,7 +104,7 @@
     time    : 00:00 - 00:00
     name    : Robbe Van Roey
     bio     : >-
-              Hi! I’m Robbe Van Roey<br />
+              Hi! I’m Robbe Van Roey.<br />
               I’m a hacker. I like breaking stuff. I’m a security researcher at Aikido, I’ve 
               worked for a bug bounty company, and I’ve found 35+ CVEs. I love hacking web apps, 
               mobile applications, AI systems, and Active Directory.<br />
@@ -176,25 +176,25 @@
     day     : 26/11/2026
     time    : 10:40 - 11:10
     title   : Break
-    display : yes
+    display : no
 
   - type    : break
     day     : 26/11/2026
     time    : 12:40 - 13:40
     title   : Lunch
-    display : yes
+    display : no
 
 
   - type    : break
     day     : 26/11/2026
     time    : 15:10 - 15:40
     title   : Break
-    display : yes
+    display : no
 
   - type    : break
     day     : 26/11/2026
     time    : 17:05 - 17:30
     name    : Owasp BeNeLux Team
     title   : Closing
-    display : yes
+    display : no
 

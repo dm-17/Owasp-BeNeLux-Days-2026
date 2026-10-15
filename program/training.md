@@ -1,4 +1,4 @@
 ---
 layout: training
-title: Training Day 3/12/25
+title: Training Day 27/11/26
 ---

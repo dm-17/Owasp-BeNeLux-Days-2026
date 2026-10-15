@@ -1,4 +1,4 @@
 ---
 layout: conference
-title: Conference Day 2/12/25
+title: Conference Day 26/11/26
 ---

@@ -22,7 +22,7 @@
                             {% capture fullname %}{{speaker.name}}{% endcapture %}
                         {% endif %}
                         <tr>
-                            <td>{{speaker.time}}</td>
+                            <!-- <td>{{speaker.time}}</td> -->
                             {% if speaker.type=='talk' %}
                             <td>{{fullname}}</td>
                             <td class="yt-link"><a href="#{{fullname | replace: " ","-"}}">{{speaker.title}}<svg stroke="currentColor" fill="currentColor" stroke-width="0"
