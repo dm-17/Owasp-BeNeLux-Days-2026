@@ -38,7 +38,7 @@
     display : no
     
   - type    : talk
-    image   : 
+    image   : jeroen_beckers.png
     day     : 26/11/2026
     time    : 00:00 - 00:00
     name    : Jeroen Beckers
@@ -70,7 +70,7 @@
     confirmed: yes
 
   - type    : talk
-    image   : 
+    image   : katie_paxton.jpg
     day     : 26/11/2026
     time    : 00:00 - 00:00
     name    : Katie Paxton-Fear
@@ -99,7 +99,7 @@
     confirmed: yes
 
   - type    : talk
-    image   : 
+    image   : robbe_van_roey.png
     day     : 26/11/2026
     time    : 00:00 - 00:00
     name    : Robbe Van Roey
@@ -133,7 +133,7 @@
     confirmed: yes
 
   - type    : talk
-    image   : 
+    image   : marc_samson.jpg
     day     : 26/11/2026
     time    : 00:00 - 00:00
     name    : Marc Samson
@@ -172,6 +172,40 @@
     display : yes
     confirmed: yes
     
+  - type    : talk
+    image   : tim_van_hamme.jpg
+    day     : 26/11/2026
+    time    : 00:00 - 00:00
+    name    : Tim Van Hamme
+    bio     : >-
+              Tim is the CTO and co-founder of Blue41, the security monitoring platform for AI agents. 
+              Tim brings the rare combination of a formal academic background in adversarial machine learning, 
+              hands-on offensive testing of deployed LLM applications, and operational experience inside a national CSIRT.<br>
+              His PhD at KU Leuven on trustworthy ML gave him deep grounding in how ML systems fail under adversarial 
+              pressure. He has built on that foundation through hands-on white-hat testing of LLM-enabled applications, 
+              contributing to multiple responsibly disclosed and accepted prompt-injection findings, including one 
+              affecting a production AI banking assistant. As privately invited participant at the OpenAI 
+              research workshop and the Dagstuhl seminar on LLM security in 2025, he is recognised within the 
+              small international community shaping current thinking on AI-system security.<br>
+              As co-founder of Blue41 he has built an AI security platform from the ground up.
+    title   : AI Security Testing Is a Hoax! Or Is It?
+    abstract: >-
+              This talk takes attendees from enthusiasm, through doubt, to a clearer view of how to assess AI 
+              security risks. Drawing on academic research and concrete attack examples, we examine common 
+              pitfalls in AI red teaming: contaminated test datasets, fixed attacks, unclear assumptions 
+              about the attacker, and overlooked security risks.<br>
+              Even good tests cannot cover every workflow or change after deployment. We therefore explore 
+              how observing actual data flows and tool use helps assess risks at runtime and detect security incidents.<br>
+              Attendees will leave with a clearer understanding of AI security risks, how to test for them, 
+              and how to judge whether security claims are supported by evidence.
+    linkedin: https://www.linkedin.com/in/tim-van-hamme-987942100/
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
   - type    : break
     day     : 26/11/2026
     time    : 10:40 - 11:10
