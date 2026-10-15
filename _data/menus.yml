@@ -25,8 +25,8 @@
 #  url  : program/feeds
 - title: Donate
   url  : donate
-# - title: Register
-#   url  : https://owasp-benelux-2024.eventbrite.com//
+- title: Register
+  url  : https://owasp.glueup.com/event/owasp-benelux-2026-197418/
 - title: About
   items:
   - title: About OWASP
