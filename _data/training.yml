@@ -13,9 +13,21 @@
               SBOM use is equally successful. Olle will tell us how to improve their application, how to 
               work with them day in and day out and how to develop your own SBOM lifestyle for your 
               organization.
-    title   : TBA
+    title   : Know Your Software, Manage Your Risk
     abstract: >-
-              TBA
+              Due Diligence and Vulnerability Management in the Age of the Cyber Resilience Act.<br>
+              Modern software consists of complex dependency chains, and managing vulnerabilities requires 
+              much more than running scanners and applying patches. The EU Cyber Resilience Act places new 
+              obligations on manufacturers to understand their products, manage vulnerabilities throughout 
+              the support period, and demonstrate responsible security practices.<br>
+              In this three-hour training, we explore the vulnerability management lifecycle, from vulnerability 
+              discovery and publication to risk assessment, mitigation, and verification. We examine the roles 
+              of CVE, CVSS, EPSS, vulnerability databases, SBOMs, and the emerging GVIP initiative.<br>
+              We introduce practical approaches to software due diligence, including Cost per Dependency 
+              (CPD) and Risk per Dependency (RPD), and discuss how Vulnerability Management Attestation 
+              (VMA) can provide evidence of an organization's vulnerability management practices.<br>
+              The objective is to move beyond vulnerability lists and compliance checklists toward informed 
+              security decisions, effective vulnerability management, and demonstrable accountability.
     feed    :
     url     : 
     linkedin: https://www.linkedin.com/in/ollejohansson/
