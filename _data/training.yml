@@ -43,15 +43,38 @@
     time    : 09:00 - 13:00
     name    : Maryam Mouzarani
     bio     : >-
-              TBA
-    title   : PwwnAI
+              Maryam Mouzarani is a Cybersecurity Engineer with over 12 years of experience in application 
+              security, penetration testing, and software vulnerability research. She holds a PhD in Computer 
+              Engineering, specializing in software vulnerability analysis, and has authored several publications 
+              in this field. Currently, she serves as an AI Red Team Engineer and Test Team Lead at Applause.<br> 
+              She is the creator of PwnzzAI and currently leads the OWASP PwnzzAI project. In addition to her 
+              industry expertise, Maryam has more than five years of teaching experience and has designed and 
+              delivered a range of academic and professional training courses in cybersecurity and related disciplines.
+    title   : Hacking a Smart Pizza Place with OWASP PwnzzAI
     abstract: >-
-              TBA
+              As AI systems become increasingly integrated into modern applications, new security risks emerge 
+              across machine learning models, large language models, retrieval-augmented generation, and AI agents. 
+              Understanding these threats requires more than theory, it requires hands-on experience.<br>
+              In this four-hour practical training, participants will explore AI security through PwnzzAI, an 
+              intentionally vulnerable, AI-powered pizza shop developed as an OWASP project. Using realistic 
+              business scenarios, participants will investigate how AI applications can be attacked, where 
+              traditional application security assumptions fall short, and how vulnerabilities can be identified 
+              and mitigated.<br>
+              The training combines a brief introduction to AI security concepts with guided, hands-on challenges 
+              covering topics such as prompt injection, data and RAG poisoning, insecure output handling, misinformation, 
+              sensitive information disclosure, and excessive agency. Participants will experiment with vulnerable 
+              implementations, observe the impact of attacks, and discuss defensive strategies for building more 
+              secure AI-enabled applications.<br>
+              Designed for security professionals, developers, penetration testers, and anyone interested in AI security, 
+              the session emphasizes practical experimentation, collaborative problem-solving, and learning by doing.
+              No advanced AI or machine learning expertise is required.<br>
+              The goal is simple: understand how AI applications break, learn why they break, and discover how to 
+              build them more securely.
     feed    :
     url     : 
-    linkedin: 
+    linkedin: https://www.linkedin.com/in/maryam-mouzarani
     x_handle:
-    reqs    : 
+    reqs    : A laptop with a browser.
     urltag  : 
     display : yes
     confirmed: yes
