@@ -219,9 +219,9 @@
               SBOM use is equally successful. Olle will tell us how to improve their application, how to 
               work with them day in and day out and how to develop your own SBOM lifestyle for your 
               organization.
-    title   : TBA
+    title   : Will be published soon...
     abstract: >-
-              TBA
+              Will be published soon...
     linkedin: https://www.linkedin.com/in/ollejohansson/
     x_handle: 
     feed    : 
@@ -229,6 +229,24 @@
     urltag  : 
     display : yes
     confirmed: yes
+
+  - type    : talk
+    image   : Olle-E-Johansson.jpg
+    day     : 26/11/2026
+    time    : 00:00 - 00:00
+    name    : Roman Zhukov
+    bio     : >-
+              Will be published soon...
+    title   : AI and CVEs (TBC)
+    abstract: >-
+              Will be published soon...
+    linkedin: 
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: no
 
   - type    : break
     day     : 26/11/2026
