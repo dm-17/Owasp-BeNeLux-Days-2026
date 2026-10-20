@@ -231,7 +231,7 @@
     confirmed: yes
 
   - type    : talk
-    image   : Olle-E-Johansson.jpg
+    image   : roman_zhukov.png
     day     : 26/11/2026
     time    : 00:00 - 00:00
     name    : Roman Zhukov
@@ -246,7 +246,7 @@
     url     : 
     urltag  : 
     display : yes
-    confirmed: no
+    confirmed: yes
 
   - type    : break
     day     : 26/11/2026
