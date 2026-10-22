@@ -219,7 +219,7 @@
               SBOM use is equally successful. Olle will tell us how to improve their application, how to 
               work with them day in and day out and how to develop your own SBOM lifestyle for your 
               organization.
-    title   : Will be published soon...
+    title   : OWASP and the CRA - a match made in heaven
     abstract: >-
               Will be published soon...
     linkedin: https://www.linkedin.com/in/ollejohansson/
@@ -236,11 +236,28 @@
     time    : 00:00 - 00:00
     name    : Roman Zhukov
     bio     : >-
-              Will be published soon...
-    title   : AI and CVEs (TBC)
+              Roman is a cybersecurity expert and leader with 20+ years of experience securing complex 
+              systems and products. As Principal Architect at Red Hat, he drives open-source security 
+              strategy and cross-industry collaboration to build trusted software ecosystems. 
+              Formerly, he led Product Security & Privacy for Data Center and AI software at Intel. 
+              Roman contributes to global open-source security initiatives and standardization efforts, 
+              including the EU Cyber Resilience Act. He is also a university lecturer, startup advisor, 
+              and mentor, advocating for practical and responsible cybersecurity.
+    title   : What 2026 OWASP practitioners should do after CVE in open source arrives
     abstract: >-
-              Will be published soon...
-    linkedin: 
+              Open source runs the stack. AI made finding vulnerabilities and even generating 
+              “LGTM fixes” cheap. Maintainers and enterprise developers did not get cheaper. 
+              The result is scary: real CVEs is next to noise, candidate patches nobody trusts, 
+              and open source maintainers treated as a free inbox for the industry’s backlog. 
+              Discovery is no longer the hard part, credibility and coordination are.<br>
+              This talk maps three layers that help AppSec professionals to keep up with the new 
+              AI vulnerability world: coordination through a neutral open source incident response 
+              front door (like Linux Foundation Akrites SIRT), validation through focused human 
+              reviews that separate credible remediation signal from AI-generated noise (like with 
+              OWASP OASIS) and clearinghouse <-> stewardship patterns for how the ecosystem can 
+              triage, remediate, and upstream without private forks or dumping compliance heat on 
+              individual contributors.
+    linkedin: https://www.linkedin.com/in/rozhukov/
     x_handle: 
     feed    : 
     url     : 
