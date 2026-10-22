@@ -1,8 +1,8 @@
 <section class="conference-schedule">
     {% if site.data.conference[0].title %}
         {% assign speakers = site.data.conference | sort: 'time' %}
-        {% assign table_headers='speaker, title' | split: ', ' %}
-        <h1>Program<!-- Schedule--></h1>
+        {% assign table_headers='time, speaker, title' | split: ', ' %}
+        <h1>Program Schedule</h1>
         <table>
             <thead>
                 <tr>
@@ -22,7 +22,7 @@
                             {% capture fullname %}{{speaker.name}}{% endcapture %}
                         {% endif %}
                         <tr>
-                            <!-- <td>{{speaker.time}}</td> -->
+                            <td>{{speaker.time}}</td>
                             {% if speaker.type=='talk' %}
                             <td>{{fullname}}</td>
                             <td class="yt-link"><a href="#{{fullname | replace: " ","-"}}">{{speaker.title}}<svg stroke="currentColor" fill="currentColor" stroke-width="0"

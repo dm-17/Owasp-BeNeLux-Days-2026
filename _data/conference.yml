@@ -21,46 +21,56 @@
 
   - type    : info
     day     : 26/11/2026
-    time    : 9:00 - 17:00
+    time    : 9:00 - 17:30
     title   : Conference
     
   - type    : break
     day     : 26/11/2026
-    time    : 08:30 - 09:00
+    time    : 08:30 - 09:15
     title   : Registration booth and welcome coffee
-    display : no
+    display : yes
 
   - type    : break
     day     : 26/11/2026
-    time    : 09:00 - 09:15
+    time    : 09:15 - 09:30
     name    : Owasp BeNeLux Team
     title   : Opening / Welcome
-    display : no
-    
+    display : yes
+
   - type    : talk
-    image   : jeroen_beckers.png
+    image   : Olle-E-Johansson.jpg
     day     : 26/11/2026
-    time    : 00:00 - 00:00
-    name    : Jeroen Beckers
+    time    : 09:30 - 10:15
+    name    : Olle E. Johansson
     bio     : >-
-              I am the mobile solution lead at NVISO, where I am responsible for quality 
-              delivery, innovation and methodology for all mobile assessments. I am 
-              actively involved in the mobile security community, and I try to share my 
-              knowledge through open-source tools, blogposts, trainings and presentations. 
-              I am the lead author and instructor of the SANS 575 course&#58; Mobile device 
-              security and ethical hacking and a co-author of the OWASP Mobile Application 
-              Security Testing Guide (MSTG) and OWASP Mobile Application Security 
-              Verification Standard (MASVS).
-    title   : New phone, who dis? - Malware. It's malware.
+              Olle E. Johansson has over twenty years of experience in telecommunications, VoIP, and 
+              cybersecurity. Olle is active in open-source projects and standard forums, the founder 
+              of major appsec and network security initiatives, and a specialist for various categories 
+              of software bills of materials (SBOM). These days, SBOMs are everywhere, but not every 
+              SBOM use is equally successful. Olle will tell us how to improve their application, how to 
+              work with them day in and day out and how to develop your own SBOM lifestyle for your 
+              organization.
+    title   : OWASP and the CRA - a match made in heaven
     abstract: >-
-              Supply-chain attacks have taken down major corporations before. But they 
-              don’t only happen to businesses. Sometimes, they’re much more personal. 
-              What if your brand-new device was compromised from the start, with malware 
-              so deeply embedded that even a factory reset couldn’t remove it? In this 
-              talk, we will take a look at Triada&#58; malware that doesn’t just infect 
-              your phone, but becomes part of the operating system itself. Tracking and 
-              attacking you from the moment you turn it on, impossible to remove. What 
-              does it actually do? Would you even notice? Join me in this talk to find out!
+              Will be published soon...
+    linkedin: https://www.linkedin.com/in/ollejohansson/
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : talk
+    image   : logo.svg
+    day     : 26/11/2026
+    time    : 10:15 - 10:35
+    name    : CTF Opening
+    bio     : >-
+              Will be published soon...
+    title   : CTF Opening
+    abstract: >-
+              Will be published soon...
     linkedin: 
     x_handle: 
     feed    : 
@@ -69,39 +79,16 @@
     display : yes
     confirmed: yes
 
-  - type    : talk
-    image   : katie_paxton.jpg
+  - type    : break
     day     : 26/11/2026
-    time    : 00:00 - 00:00
-    name    : Katie Paxton-Fear
-    bio     : >-
-              Katie Paxton-Fear is a hacker and security advocate at Semgrep – she used to make 
-              applications, and now she breaks them. She got her start hacking participating in 
-              bug bounty programs. She spends her time making YouTube videos teaching other people 
-              how to hack APIs and web apps. Her content has been recommended by threat actors and 
-              professionals alike. 
-    title   : I was a certified AI hater, and now I use it every day
-    abstract: >-
-              In my past life I was an AI hater, I'd seen the slop reports, the fake findings, the 
-              keynotes, the vendor pitches, and I was done with AI. Then I got hit by a truck&#58; 
-              my bosses-bosses-boss asking me to help with 81 AI generated findings. I woke up in 
-              a world where they weren't slop? But actually genuine security issues? From the bot? 
-              I was just an ordinary hacker, but now I'm paying Anthropic for a Claude Max 
-              subscription. I'm now building my own AI tooling, benchmarking models, and advocating 
-              for open weight AI, here's how I got there and how you can start to build your own AI 
-              tools to support your work.
-    linkedin: https://www.linkedin.com/in/katiepf/
-    x_handle: 
-    feed    : 
-    url     : 
-    urltag  : 
+    time    : 10:35 - 11:05
+    title   : Break
     display : yes
-    confirmed: yes
 
   - type    : talk
     image   : robbe_van_roey.png
     day     : 26/11/2026
-    time    : 00:00 - 00:00
+    time    : 11:05 - 11:50
     name    : Robbe Van Roey
     bio     : >-
               Hi! I’m Robbe Van Roey.<br />
@@ -132,10 +119,86 @@
     display : yes
     confirmed: yes
 
+
+  - type    : talk
+    image   : tim_van_hamme.jpg
+    day     : 26/11/2026
+    time    : 11:50 - 12:35
+    name    : Tim Van Hamme
+    bio     : >-
+              Tim is the CTO and co-founder of Blue41, the security monitoring platform for AI agents. 
+              Tim brings the rare combination of a formal academic background in adversarial machine learning, 
+              hands-on offensive testing of deployed LLM applications, and operational experience inside a national CSIRT.<br>
+              His PhD at KU Leuven on trustworthy ML gave him deep grounding in how ML systems fail under adversarial 
+              pressure. He has built on that foundation through hands-on white-hat testing of LLM-enabled applications, 
+              contributing to multiple responsibly disclosed and accepted prompt-injection findings, including one 
+              affecting a production AI banking assistant. As privately invited participant at the OpenAI 
+              research workshop and the Dagstuhl seminar on LLM security in 2025, he is recognised within the 
+              small international community shaping current thinking on AI-system security.<br>
+              As co-founder of Blue41 he has built an AI security platform from the ground up.
+    title   : AI Security Testing Is a Hoax! Or Is It?
+    abstract: >-
+              This talk takes attendees from enthusiasm, through doubt, to a clearer view of how to assess AI 
+              security risks. Drawing on academic research and concrete attack examples, we examine common 
+              pitfalls in AI red teaming: contaminated test datasets, fixed attacks, unclear assumptions 
+              about the attacker, and overlooked security risks.<br>
+              Even good tests cannot cover every workflow or change after deployment. We therefore explore 
+              how observing actual data flows and tool use helps assess risks at runtime and detect security incidents.<br>
+              Attendees will leave with a clearer understanding of AI security risks, how to test for them, 
+              and how to judge whether security claims are supported by evidence.
+    linkedin: https://www.linkedin.com/in/tim-van-hamme-987942100/
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
+  - type    : break
+    day     : 26/11/2026
+    time    : 12:35 - 13:35
+    title   : Lunch
+    display : yes
+
+  - type    : talk
+    image   : roman_zhukov.png
+    day     : 26/11/2026
+    time    : 13:35 - 14:20
+    name    : Roman Zhukov
+    bio     : >-
+              Roman is a cybersecurity expert and leader with 20+ years of experience securing complex 
+              systems and products. As Principal Architect at Red Hat, he drives open-source security 
+              strategy and cross-industry collaboration to build trusted software ecosystems. 
+              Formerly, he led Product Security & Privacy for Data Center and AI software at Intel. 
+              Roman contributes to global open-source security initiatives and standardization efforts, 
+              including the EU Cyber Resilience Act. He is also a university lecturer, startup advisor, 
+              and mentor, advocating for practical and responsible cybersecurity.
+    title   : What 2026 OWASP practitioners should do after CVE in open source arrives
+    abstract: >-
+              Open source runs the stack. AI made finding vulnerabilities and even generating 
+              “LGTM fixes” cheap. Maintainers and enterprise developers did not get cheaper. 
+              The result is scary: real CVEs is next to noise, candidate patches nobody trusts, 
+              and open source maintainers treated as a free inbox for the industry’s backlog. 
+              Discovery is no longer the hard part, credibility and coordination are.<br>
+              This talk maps three layers that help AppSec professionals to keep up with the new 
+              AI vulnerability world: coordination through a neutral open source incident response 
+              front door (like Linux Foundation Akrites SIRT), validation through focused human 
+              reviews that separate credible remediation signal from AI-generated noise (like with 
+              OWASP OASIS) and clearinghouse <-> stewardship patterns for how the ecosystem can 
+              triage, remediate, and upstream without private forks or dumping compliance heat on 
+              individual contributors.
+    linkedin: https://www.linkedin.com/in/rozhukov/
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
+
   - type    : talk
     image   : marc_samson.jpg
     day     : 26/11/2026
-    time    : 00:00 - 00:00
+    time    : 14:20 - 15:05
     name    : Marc Samson
     bio     : >-
               Marc Samson is an internationally experienced Cybersecurity, IT/OT, AI and Privacy 
@@ -171,123 +234,79 @@
     urltag  : 
     display : yes
     confirmed: yes
-    
-  - type    : talk
-    image   : tim_van_hamme.jpg
-    day     : 26/11/2026
-    time    : 00:00 - 00:00
-    name    : Tim Van Hamme
-    bio     : >-
-              Tim is the CTO and co-founder of Blue41, the security monitoring platform for AI agents. 
-              Tim brings the rare combination of a formal academic background in adversarial machine learning, 
-              hands-on offensive testing of deployed LLM applications, and operational experience inside a national CSIRT.<br>
-              His PhD at KU Leuven on trustworthy ML gave him deep grounding in how ML systems fail under adversarial 
-              pressure. He has built on that foundation through hands-on white-hat testing of LLM-enabled applications, 
-              contributing to multiple responsibly disclosed and accepted prompt-injection findings, including one 
-              affecting a production AI banking assistant. As privately invited participant at the OpenAI 
-              research workshop and the Dagstuhl seminar on LLM security in 2025, he is recognised within the 
-              small international community shaping current thinking on AI-system security.<br>
-              As co-founder of Blue41 he has built an AI security platform from the ground up.
-    title   : AI Security Testing Is a Hoax! Or Is It?
-    abstract: >-
-              This talk takes attendees from enthusiasm, through doubt, to a clearer view of how to assess AI 
-              security risks. Drawing on academic research and concrete attack examples, we examine common 
-              pitfalls in AI red teaming: contaminated test datasets, fixed attacks, unclear assumptions 
-              about the attacker, and overlooked security risks.<br>
-              Even good tests cannot cover every workflow or change after deployment. We therefore explore 
-              how observing actual data flows and tool use helps assess risks at runtime and detect security incidents.<br>
-              Attendees will leave with a clearer understanding of AI security risks, how to test for them, 
-              and how to judge whether security claims are supported by evidence.
-    linkedin: https://www.linkedin.com/in/tim-van-hamme-987942100/
-    x_handle: 
-    feed    : 
-    url     : 
-    urltag  : 
-    display : yes
-    confirmed: yes
 
-  - type    : talk
-    image   : Olle-E-Johansson.jpg
-    day     : 26/11/2026
-    time    : 00:00 - 00:00
-    name    : Olle E. Johansson
-    bio     : >-
-              Olle E. Johansson has over twenty years of experience in telecommunications, VoIP, and 
-              cybersecurity. Olle is active in open-source projects and standard forums, the founder 
-              of major appsec and network security initiatives, and a specialist for various categories 
-              of software bills of materials (SBOM). These days, SBOMs are everywhere, but not every 
-              SBOM use is equally successful. Olle will tell us how to improve their application, how to 
-              work with them day in and day out and how to develop your own SBOM lifestyle for your 
-              organization.
-    title   : OWASP and the CRA - a match made in heaven
-    abstract: >-
-              Will be published soon...
-    linkedin: https://www.linkedin.com/in/ollejohansson/
-    x_handle: 
-    feed    : 
-    url     : 
-    urltag  : 
-    display : yes
-    confirmed: yes
-
-  - type    : talk
-    image   : roman_zhukov.png
-    day     : 26/11/2026
-    time    : 00:00 - 00:00
-    name    : Roman Zhukov
-    bio     : >-
-              Roman is a cybersecurity expert and leader with 20+ years of experience securing complex 
-              systems and products. As Principal Architect at Red Hat, he drives open-source security 
-              strategy and cross-industry collaboration to build trusted software ecosystems. 
-              Formerly, he led Product Security & Privacy for Data Center and AI software at Intel. 
-              Roman contributes to global open-source security initiatives and standardization efforts, 
-              including the EU Cyber Resilience Act. He is also a university lecturer, startup advisor, 
-              and mentor, advocating for practical and responsible cybersecurity.
-    title   : What 2026 OWASP practitioners should do after CVE in open source arrives
-    abstract: >-
-              Open source runs the stack. AI made finding vulnerabilities and even generating 
-              “LGTM fixes” cheap. Maintainers and enterprise developers did not get cheaper. 
-              The result is scary: real CVEs is next to noise, candidate patches nobody trusts, 
-              and open source maintainers treated as a free inbox for the industry’s backlog. 
-              Discovery is no longer the hard part, credibility and coordination are.<br>
-              This talk maps three layers that help AppSec professionals to keep up with the new 
-              AI vulnerability world: coordination through a neutral open source incident response 
-              front door (like Linux Foundation Akrites SIRT), validation through focused human 
-              reviews that separate credible remediation signal from AI-generated noise (like with 
-              OWASP OASIS) and clearinghouse <-> stewardship patterns for how the ecosystem can 
-              triage, remediate, and upstream without private forks or dumping compliance heat on 
-              individual contributors.
-    linkedin: https://www.linkedin.com/in/rozhukov/
-    x_handle: 
-    feed    : 
-    url     : 
-    urltag  : 
-    display : yes
-    confirmed: yes
 
   - type    : break
     day     : 26/11/2026
-    time    : 10:40 - 11:10
+    time    : 15:05 - 15:35
     title   : Break
-    display : no
+    display : yes
 
-  - type    : break
+  - type    : talk
+    image   : jeroen_beckers.png
     day     : 26/11/2026
-    time    : 12:40 - 13:40
-    title   : Lunch
-    display : no
+    time    : 15:35 - 16:20
+    name    : Jeroen Beckers
+    bio     : >-
+              I am the mobile solution lead at NVISO, where I am responsible for quality 
+              delivery, innovation and methodology for all mobile assessments. I am 
+              actively involved in the mobile security community, and I try to share my 
+              knowledge through open-source tools, blogposts, trainings and presentations. 
+              I am the lead author and instructor of the SANS 575 course&#58; Mobile device 
+              security and ethical hacking and a co-author of the OWASP Mobile Application 
+              Security Testing Guide (MSTG) and OWASP Mobile Application Security 
+              Verification Standard (MASVS).
+    title   : New phone, who dis? - Malware. It's malware.
+    abstract: >-
+              Supply-chain attacks have taken down major corporations before. But they 
+              don’t only happen to businesses. Sometimes, they’re much more personal. 
+              What if your brand-new device was compromised from the start, with malware 
+              so deeply embedded that even a factory reset couldn’t remove it? In this 
+              talk, we will take a look at Triada&#58; malware that doesn’t just infect 
+              your phone, but becomes part of the operating system itself. Tracking and 
+              attacking you from the moment you turn it on, impossible to remove. What 
+              does it actually do? Would you even notice? Join me in this talk to find out!
+    linkedin: 
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
 
-
-  - type    : break
+  - type    : talk
+    image   : katie_paxton.jpg
     day     : 26/11/2026
-    time    : 15:10 - 15:40
-    title   : Break
-    display : no
+    time    : 16:20 - 17:05
+    name    : Katie Paxton-Fear
+    bio     : >-
+              Katie Paxton-Fear is a hacker and security advocate at Semgrep – she used to make 
+              applications, and now she breaks them. She got her start hacking participating in 
+              bug bounty programs. She spends her time making YouTube videos teaching other people 
+              how to hack APIs and web apps. Her content has been recommended by threat actors and 
+              professionals alike. 
+    title   : I was a certified AI hater, and now I use it every day
+    abstract: >-
+              In my past life I was an AI hater, I'd seen the slop reports, the fake findings, the 
+              keynotes, the vendor pitches, and I was done with AI. Then I got hit by a truck&#58; 
+              my bosses-bosses-boss asking me to help with 81 AI generated findings. I woke up in 
+              a world where they weren't slop? But actually genuine security issues? From the bot? 
+              I was just an ordinary hacker, but now I'm paying Anthropic for a Claude Max 
+              subscription. I'm now building my own AI tooling, benchmarking models, and advocating 
+              for open weight AI, here's how I got there and how you can start to build your own AI 
+              tools to support your work.
+    linkedin: https://www.linkedin.com/in/katiepf/
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
+    display : yes
+    confirmed: yes
 
   - type    : break
     day     : 26/11/2026
     time    : 17:05 - 17:30
     name    : Owasp BeNeLux Team
     title   : Closing
-    display : no
+    display : yes
 

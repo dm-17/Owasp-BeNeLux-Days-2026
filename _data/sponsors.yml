@@ -18,19 +18,6 @@
      level    : Platinum
      style    :
 
-  # - image    : opentext.png
-  #   name     : OpenText
-  #   url      : https://www.opentext.com
-  #   level    : Platinum
-  #   style    :
-
-
-  # - image    : iriusrisk.png
-  #   name     : IriusRisk
-  #   url      : https://www.iriusrisk.com
-  #   level    : Platinum
-  #   style    :
-
    - image    : armorcode.svg
      name     : ArmorCode
      url      : https://www.armorcode.com
@@ -49,71 +36,12 @@
      level    : Platinum
      style    :
 
-  # - image    : sonatype.svg
-  #   name     : Sonatype
-  #   url      : https://sonatype.com
-  #   level    : Platinum
-  #   style    :
-
-  # - image    : toreon.png
-  #   name     : Toreon
-  #   url      : https://www.toreon.com
-  #   level    : Platinum
-  #   style    :
-
-  # - image    : synopsys-blackduck.png
-  #   name     : Synopsys
-  #   url      : https://www.blackduck.com
-  #   level    : Gold
-  #   style    : 
-
    - image    : semgrep.png
      name     : Semgrep
      url      : https://semgrep.dev
      level    : Platinum
      style    :
 
-  # - image    : semgrep.png
-  #   name     : Semgrep
-  #   url      : https://semgrep.dev
-  #   level    : Social event
-  #   style    :
-
-  # - image    : nviso.png
-  #   name     : NVISO
-  #   url      : https://www.nviso.eu
-  #   level    : Gold
-  #   style    :
-
-  # - image    : breachlock.png
-  #   name     : BreachLock
-  #   url      : https://www.breachlock.com
-  #   level    : Silver
-  #   style    :
-
-  # - image    : brucon.png
-  #   name     : BruCON
-  #   url      : https://www.brucon.org
-  #   level    : Gold
-  #   style    :
-
-  # - image    : opentext.svg
-  #   name     : OpenText
-  #   url      : https://opentext.com
-  #   level    : Social event
-  #   style    :
-
-  # - image    : securecodewarrior.png
-  #   name     : Secure Code Warrior
-  #   url      : https://www.securecodewarrior.com
-  #   level    : Platinum
-  #   style    :
-
-  # - image    : sealsecurity.png
-  #   name     : Seal Security
-  #   url      : https://www.seal.security
-  #   level    : Gold
-  #   style    :
 
    - image    : thales.svg
      name     : Thales
