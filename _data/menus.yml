@@ -3,8 +3,10 @@
 
 
 
-- title: Home
-  url  : #
+# - title: Home
+#   url  : #
+- title: Register
+  url  : https://owasp.glueup.com/event/owasp-benelux-2026-197418/
 - title: Program
   items:
   - title: Conference
@@ -25,8 +27,6 @@
 #  url  : program/feeds
 - title: Donate
   url  : donate
-- title: Register
-  url  : https://owasp.glueup.com/event/owasp-benelux-2026-197418/
 - title: About
   items:
   - title: About OWASP
