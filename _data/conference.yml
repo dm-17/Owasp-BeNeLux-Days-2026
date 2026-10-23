@@ -43,16 +43,22 @@
     time    : 09:30 - 10:15
     name    : Olle E. Johansson
     bio     : >-
-              Olle E. Johansson has over twenty years of experience in telecommunications, VoIP, and 
-              cybersecurity. Olle is active in open-source projects and standard forums, the founder 
-              of major appsec and network security initiatives, and a specialist for various categories 
-              of software bills of materials (SBOM). These days, SBOMs are everywhere, but not every 
-              SBOM use is equally successful. Olle will tell us how to improve their application, how to 
-              work with them day in and day out and how to develop your own SBOM lifestyle for your 
-              organization.
-    title   : OWASP and the CRA - a match made in heaven
+              Olle is a well-known speaker and consultant, active in OWASP as well as the Open Regulatory 
+              Compliance Working Group and many other organisations like the IETF, the OpenSSF and the friends 
+              of the Stockholm Bergianska Botanical Garden. From his office north of Stockholm, Sweden, he 
+              participates in the work and contributes to a lot of projects. During the summers he is out in 
+              his garden but during the long dark winters of Sweden he mostly spends his time writing code, 
+              drinking Earl Grey tea and produce presentation slides.
+    title   : CRA and OWASP: A marriage made in heaven
     abstract: >-
-              Will be published soon...
+              The EU Cyber Resilience Act is all about making systems and software secure, protecting the users. 
+              Who knows this better than OWASP with 25 years of application security under the belt?<br>
+              In this talk, Olle E. Johansson will quickly introduce the EU Cyber Resilience Act and go through 
+              how OWASP work aligns with it and how our software, tools, top-ten-lists and cheat-sheets can 
+              help manufacturers and Open Source projects. You will get to know what happens in the world of 
+              SBOMs, what’s not happening in vulnerability management and what should happen in the manufacturer 
+              product teams. In addition, you will get an invitation to be a part of the OWASP worldwide security 
+              community.
     linkedin: https://www.linkedin.com/in/ollejohansson/
     x_handle: 
     feed    : 
