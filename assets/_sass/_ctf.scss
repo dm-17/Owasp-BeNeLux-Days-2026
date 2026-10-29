@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+.ctf {
+    display: flex;
+    flex-direction: row;
+}
+
+.ctf .left {
+    display: grid;
+    padding: 80px 60px;
+    flex: 1;
+    color:#3b4858;
+    width: 300px;
+}
+
+.ctf .left .head {
+    font-size: 80px;
+    color:#3b4858;
+}
+
+.ctf .left .head a {
+    text-decoration: none;
+    color: #3b4858;
+}
+
+.ctf .left a {
+    text-decoration: none;
+    margin-left: 40%;
+}
+
+.ctf .left .pre-heading {
+    font-size: 20px;
+    font-family: inter;
+    line-height: 28px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color:#000
+}
+
+.ctf .left .sub-heading {
+    font-size: 17px;
+    font-family: inter;
+    font-style: italic;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color:#000
+}
+
+.ctf .left .content {
+    font-size: 20px;
+    font-family: inter;
+    line-height: 28px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color:#000
+}
+
+.ctf .left .ctf-disclaimer {
+    font-size: 15px;
+    font-family: inter;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 10px;
+}
+
+.ctf .left .sub-heading a {
+    text-decoration: none;
+    color: #717a86;
+    font-family: inter;
+}
+
+.ctf .left .sub-heading li {
+    line-height: 26px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    list-style-type:none
+}
+
+.ctf .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px 60px;
+}
+
+.ctf .right .ctflocation {
+    flex: 3;
+    background-image: url(/assets/images/secdim_ctf.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+}
+
+.ctf .right .title {
+    flex: 4;
+    display: block;
+    font-family: inter;
+    font-size: 25px;
+    color:#3b4858;
+    max-height: 25px;
+    position: 300px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.ctf .right .ctfsponsor {
+    display: block;
+    flex: 5;
+    background-image: url(/assets/images/secdim_logo.svg);
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-width: 150px;
+    max-width: 300px;
+    margin-top: 10px;
+    min-height: 50px;
+    padding-left: 100px !important;
+}
+
+@media screen and (max-width: 700px) {
+    .ctf {
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        justify-content: center;
+    }
+
+    .ctf .left {
+        display: block;
+        flex: 1;
+        width: 80%;
+        margin: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px !important;
+        padding-top: 0px;
+        padding-bottom: 0px !important;
+    }
+
+    .ctf .left .sub-heading {
+        font-size:16px
+    }
+
+    .ctf .right {
+        flex:2;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px !important;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .ctf .right .ctflocation {
+        width: auto;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .ctf .right .ctfsponsor {
+        display: block;
+        padding: 0px;
+        min-height: 50px;
+    }
+
+    .ctf .left a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+        
+
+}
+
+
+

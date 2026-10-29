@@ -33,7 +33,11 @@
                             </svg></a></td>
                             {% endif %}
                             {% if speaker.type=='break' %}
-                                <td colspan="2" align="center" class="break">{{speaker.title}}</td>
+                                <td colspan="2" align="center" class="break">
+                                    {% if speaker.url %}<a class="break" href="{{speaker.url}}">{% endif %}
+                                        {{speaker.title}}
+                                    {% if speaker.url %}</a>{% endif %}
+                                    </td>
                             {% endif %}
                         </tr>
                     {% endif %}

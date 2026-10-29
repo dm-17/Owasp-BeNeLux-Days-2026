@@ -23,6 +23,11 @@
     color: #3b4858;
 }
 
+.socialevent .left a {
+    text-decoration: none;
+    margin-left: 40%;
+}
+
 .socialevent .left .pre-heading {
     font-size: 20px;
     font-family: inter;
@@ -39,6 +44,16 @@
     margin-bottom: 30px;
     font-weight: 400;
     color:#000
+}
+
+.socialevent .left .social-event-disclaimer {
+    font-size: 15px;
+    font-family: inter;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 10px;
 }
 
 .socialevent .left .sub-heading a {
@@ -64,7 +79,7 @@
 
 .socialevent .right .socialeventlocation {
     flex: 3;
-    background-image: url(/assets/images/anker.jpg);
+    background-image: url(/assets/images/BK-Zwart-Wit.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
