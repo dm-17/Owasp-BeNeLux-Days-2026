@@ -67,23 +67,53 @@
     display : yes
     confirmed: yes
 
-  - type    : talk
-    image   : logo.svg
+  # - type    : talk
+  #   image   : logo.svg
+  #   day     : 26/11/2026
+  #   time    : 10:15 - 10:35
+  #   name    : CTF Opening
+  #   bio     : >-
+  #             Will be published soon...
+  #   title   : CTF Opening
+  #   abstract: >-
+  #             Will be published soon...
+  #   linkedin: 
+  #   x_handle: 
+  #   feed    : 
+  #   url     : 
+  #   urltag  : 
+  #   display : no
+  #   confirmed: no
+
+  - type    : break
     day     : 26/11/2026
     time    : 10:15 - 10:35
-    name    : CTF Opening
-    bio     : >-
-              Will be published soon...
-    title   : CTF Opening
-    abstract: >-
-              Will be published soon...
-    linkedin: 
-    x_handle: 
-    feed    : 
-    url     : 
-    urltag  : 
+    title   : AI Wargames CTF opening
     display : yes
-    confirmed: yes
+
+  # - type    : talk
+  #   image   : logo.svg
+  #   day     : 26/11/2026
+  #   time    : 10:15 - 10:35
+  #   name    : Secdim
+  #   bio     : >-
+  #             SecDim is a cybersecurity learning platform from Security Dimension, focused on helping developers 
+  #             and security teams build practical software-security skills. <br>
+  #             Its hands-on wargames let learners find, exploit, and fix vulnerabilities modeled on real-world 
+  #             incidents.<br>
+  #             It also offers team training and tools that turn real security findings into coding exercises.
+  #   title   : AI Wargame CTF
+  #   abstract: >-
+  #             The AI Wargame CTF is an attack-and-defence contest focused on AI/LLM-powered apps: earn points by 
+  #             fixing vulnerabilities in your own app and exploiting flaws in other players apps. 
+  #             The goal is to build practical AI security skills while competing for the top spot on the leaderboard.
+  #   linkedin: https://www.linkedin.com/company/secdim
+  #   x_handle: https://x.com/secdim
+  #   feed    : 
+  #   url     : https://secdim.com/owasp-benelux/
+  #   urltag  : AI Wargame CTF by SecDim
+  #   display : yes
+  #   confirmed: yes
 
   - type    : break
     day     : 26/11/2026
