@@ -110,8 +110,8 @@
     x_handle:
     reqs    : 
     urltag  : 
-    display : yes
-    confirmed: yes
+    display : no
+    confirmed: no
 
   - type    : training
     image   : seba_deleersnyder.png
