@@ -21,18 +21,18 @@
 
   - type    : info
     day     : 26/11/2026
-    time    : 9:00 - 17:30
+    time    : 9:00 - 17:00
     title   : Conference
     
   - type    : break
     day     : 26/11/2026
-    time    : 08:30 - 09:15
+    time    : 08:30 - 09:00
     title   : Registration booth and welcome coffee
     display : yes
 
   - type    : break
     day     : 26/11/2026
-    time    : 09:15 - 09:30
+    time    : 09:00 - 09:15
     name    : Owasp BeNeLux Team
     title   : Opening / Welcome
     display : yes
@@ -40,7 +40,7 @@
   - type    : talk
     image   : Olle-E-Johansson.jpg
     day     : 26/11/2026
-    time    : 09:30 - 10:15
+    time    : 09:15 - 09:55
     name    : Olle E. Johansson
     bio     : >-
               Olle is a well-known speaker and consultant, active in OWASP as well as the Open Regulatory 
@@ -67,12 +67,47 @@
     display : yes
     confirmed: yes
 
-  - type    : break
+  - type    : talk
+    image   : louise_fox.jpg
     day     : 26/11/2026
-    time    : 10:15 - 10:35
-    title   : AI Wargames CTF opening
-    url     : /program/ctf
+    time    : 09:55 - 10:35
+    name    : Louise Fox
+    bio     : >-
+              Louise Fox joined Amazon Web Services straight from university and has 
+              spent the last ten years in cloud security. She has worked in incident 
+              response, technical account management and security architecture, and 
+              now works as a Senior Security Specialist and security strategist.<br>
+              Louise works with everyone from C-level executives to engineering teams, 
+              helping them turn security from a blocker into something that enables the 
+              business. Her focus today is where cloud, application security and AI meet, 
+              including how organisations can safely adopt agentic AI.<br>
+              She is a CISSP and a regular speaker, and is obsessed with making security 
+              make sense to everyone, from the boardroom to the builder. Outside her 
+              day job, she mentors women entering security and IT.
+    title   : Is This a Human? The Wrong Question for the Agentic Era 
+    abstract: >-
+              For twenty years, bot defence asked one question: human or automated? Block 
+              the bots, let the humans through. That model is breaking. AI agents now browse, 
+              compare, book and buy on behalf of real customers. Price-comparison engines 
+              and partner crawlers drive revenue. Scalpers, scrapers and credential stuffers 
+              drain it. Blocking all of them is as wrong as allowing all of them.<br>
+              In this talk, I'll share two real-world patterns from opposite ends of the 
+              spectrum. One is a global travel platform that turned billions of automated 
+              requests from a cost centre into a revenue stream. The other is a luxury 
+              retailer whose limited-edition drops kept selling out to bots in seconds. 
+              Both moved from "block or allow" to a simple framework: visualise, monetise, 
+              protect.<br>
+              You'll leave knowing how to classify automated traffic by intent, which 
+              signals still work when agents mimic humans, and how to choose between allow, 
+              rate-limit, challenge, charge and block. You'll also hear what the OWASP 
+              Automated Threats project needs to cover next.
+    linkedin: https://www.linkedin.com/in/louisefoxaws/
+    x_handle: 
+    feed    : 
+    url     : 
+    urltag  : 
     display : yes
+    confirmed: yes
 
   - type    : break
     day     : 26/11/2026
@@ -83,7 +118,7 @@
   - type    : talk
     image   : robbe_van_roey.png
     day     : 26/11/2026
-    time    : 11:05 - 11:50
+    time    : 11:05 - 11:45
     name    : Robbe Van Roey
     bio     : >-
               Hi! I’m Robbe Van Roey.<br />
@@ -118,7 +153,7 @@
   - type    : talk
     image   : tim_van_hamme.jpg
     day     : 26/11/2026
-    time    : 11:50 - 12:35
+    time    : 11:45 - 12:25
     name    : Tim Van Hamme
     bio     : >-
               Tim is the CTO and co-founder of Blue41, the security monitoring platform for AI agents. 
@@ -151,14 +186,14 @@
 
   - type    : break
     day     : 26/11/2026
-    time    : 12:35 - 13:35
+    time    : 12:25 - 13:25
     title   : Lunch
     display : yes
 
   - type    : talk
     image   : roman_zhukov.png
     day     : 26/11/2026
-    time    : 13:35 - 14:20
+    time    : 13:25 - 14:05
     name    : Roman Zhukov
     bio     : >-
               Roman is a cybersecurity expert and leader with 20+ years of experience securing complex 
@@ -193,7 +228,7 @@
   - type    : talk
     image   : marc_samson.jpg
     day     : 26/11/2026
-    time    : 14:20 - 15:05
+    time    : 14:05 - 14:45
     name    : Marc Samson
     bio     : >-
               Marc Samson is an internationally experienced Cybersecurity, IT/OT, AI and Privacy 
@@ -233,14 +268,14 @@
 
   - type    : break
     day     : 26/11/2026
-    time    : 15:05 - 15:35
+    time    : 14:45 - 15:15
     title   : Break
     display : yes
 
   - type    : talk
     image   : jeroen_beckers.png
     day     : 26/11/2026
-    time    : 15:35 - 16:20
+    time    : 15:15 - 15:55
     name    : Jeroen Beckers
     bio     : >-
               I am the mobile solution lead at NVISO, where I am responsible for quality 
@@ -272,7 +307,7 @@
   - type    : talk
     image   : katie_paxton.jpg
     day     : 26/11/2026
-    time    : 16:20 - 17:05
+    time    : 15:55 - 16:35
     name    : Katie Paxton-Fear
     bio     : >-
               Katie Paxton-Fear is a hacker and security advocate at Semgrep – she used to make 
@@ -300,8 +335,14 @@
 
   - type    : break
     day     : 26/11/2026
-    time    : 17:05 - 17:30
+    time    : 16:35 - 17:00
     name    : Owasp BeNeLux Team
     title   : Closing
     display : yes
 
+  - type    : break
+    day     : 26/11/2026
+    time    : 17:00 - 18:00
+    name    : Owasp BeNeLux Team
+    title   : Networking reception
+    display : yes
